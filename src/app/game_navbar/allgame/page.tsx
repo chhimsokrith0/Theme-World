@@ -7,17 +7,17 @@ import ClientLoaderWrapper from "@/app/components/ClientLoaderWrapper";
 const AllGame: React.FC = () => {
     const demoGames = [
         { title: "Ways of the Qilin", provider: "PGSoft", image: "/img-allgames/37.png" },
-        { title: "Anubis Wrath", provider: "PGSoft", image: "/img-allgames/25.png" },
+        { title: "Anubis Wrath", provider: "PGSoft", image: "/img-allgames/35.png" },
         { title: "Fortune Dragon", provider: "PGSoft", image: "/img-allgames/26.png" },
         { title: "Tsar Treasures", provider: "PGSoft", image: "/img-allgames/27.png" },
-        { title: "Chicky Run", provider: "PGSoft", image: "/img-allgames/17.png" },
-        { title: "Three Crazy Piggies", provider: "PGSoft", image: "/img-allgames/18.png" },
-        { title: "Gemstones Gold", provider: "PGSoft", image: "/img-allgames/19.png" },
-        { title: "Zombie Outbreak", provider: "PGSoft", image: "/img-allgames/20.png" },
-        { title: "Oishi Delights", provider: "PGSoft", image: "/img-allgames/21.png" },
-        { title: "Mystic Potion", provider: "PGSoft", image: "/img-allgames/22.png" },
-        { title: "Museum Mystery", provider: "PGSoft", image: "/img-allgames/23.png" },
-        { title: "Dragon Hatch 2", provider: "PGSoft", image: "/img-allgames/25.png" },
+        { title: "Chicky Run", provider: "PGSoft", image: "/img-allgames/36.png" },
+        { title: "Three Crazy Piggies", provider: "PGSoft", image: "/img-allgames/33.png" },
+        { title: "Gemstones Gold", provider: "PGSoft", image: "/img-allgames/12.png" },
+        { title: "Zombie Outbreak", provider: "PGSoft", image: "/img-allgames/33.png" },
+        { title: "Oishi Delights", provider: "PGSoft", image: "/img-allgames/31.png" },
+        { title: "Mystic Potion", provider: "PGSoft", image: "/img-allgames/30.png" },
+        { title: "Museum Mystery", provider: "PGSoft", image: "/img-allgames/1.png" },
+        { title: "Dragon Hatch 2", provider: "PGSoft", image: "/img-allgames/2.png" },
     ];
 
     return (
