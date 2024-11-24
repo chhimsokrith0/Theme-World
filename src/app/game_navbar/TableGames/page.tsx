@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import NavbarGame from "@/app/components/NavbarGame";
 import ClientLoaderWrapper from "@/app/components/ClientLoaderWrapper";
 
@@ -23,9 +24,11 @@ const TableGames: React.FC = () => {
                   key={index}
                   className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition-transform"
                 >
-                  <img
+                  <Image
                     src={game.image}
                     alt={game.title}
+                    width={160}
+                    height={160}
                     className="w-full h-40 object-cover"
                   />
                   <div className="p-3">
@@ -38,13 +41,15 @@ const TableGames: React.FC = () => {
           ) : (
             <div className="flex flex-col items-center justify-center h-64 text-gray-400">
               <div className="w-20 h-20">
-                <img
-                  src="/nothing_box.webp" // Update this path to your placeholder icon
+                <Image
+                  src="/nothing_box.webp"
                   alt="Empty Box"
+                  width={80}
+                  height={80}
                   className="w-full h-full object-contain"
                 />
               </div>
-              <p className="mt-4 text-lg">There's nothing here yet!</p>
+              <p className="mt-4 text-lg">There&apos;s nothing here yet!</p>
             </div>
           )}
         </ClientLoaderWrapper>
