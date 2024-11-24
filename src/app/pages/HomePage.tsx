@@ -22,44 +22,44 @@ const HomePage: React.FC = () => {
         </section>
 
         {/* Navigation Bar Section */}
-        <section className="max-w-[1200px] mx-auto p-4 border-t border-gray-700">
+        <section className="max-w-[1200px] mx-auto border-t border-gray-700">
           <Navbar />
         </section>
 
         {/* Popular Games Section */}
-        <section className="max-w-[1200px] mx-auto p-4 border-t border-gray-700">
+        <section className="max-w-[1200px] mx-auto border-t border-gray-700">
           
           <PopularGames />
         </section>
 
         {/* New Games Section */}
-        <section className="max-w-[1200px] mx-auto p-4">
+        <section className="max-w-[1200px] mx-auto">
          
           <NewGames />
         </section>
 
         {/* Promotions Section */}
-        <section className="max-w-[1200px] mx-auto p-4">
+        <section className="max-w-[1200px] mx-auto">
           <Promotions />
         </section>
 
         {/* Live Casino Section */}
-        <section className="max-w-[1200px] mx-auto p-4">
+        <section className="max-w-[1200px] mx-auto">
           <LiveCasino />
         </section>
 
         {/* Game Providers Section */}
-        <section className="max-w-[1200px] mx-auto p-4">
+        <section className="max-w-[1200px] mx-auto">
           <GameProviders />
         </section>
 
         {/* Jackpot Banner Section */}
-        <section className="max-w-[1200px] mx-auto p-4">
+        <section className="max-w-[1200px] mx-auto">
           <JackpotBanner />
         </section>
 
         {/* All Games Section */}
-        <section className="max-w-[1200px] mx-auto p-4">
+        <section className="max-w-[1200px] mx-auto">
           <AllGames />
         </section>
       </div>

@@ -46,62 +46,27 @@ const Navbar: React.FC = () => {
         <div className="hidden lg:flex justify-between items-center px-6 py-3">
           {/* Navigation Items */}
           <div className="flex items-center space-x-6">
-            <div
-              onClick={() => router.push("/game_navbar/demo")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white"
-            >
-              <MdPlayCircleFilled className="text-xl" />
-              <span className="text-sm">Demo</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/allgame")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white text-white"
-            >
-              <FaDice className="text-xl text-red-500" />
-              <span className="text-sm font-bold">All Games</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/PopularGames")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white"
-            >
-              <FaCrown className="text-xl" />
-              <span className="text-sm">Popular Games</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/newGame")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white"
-            >
-              <FaStar className="text-xl" />
-              <span className="text-sm">New Games</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/CashDrop")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white"
-            >
-              <FaMoneyBillWave className="text-xl" />
-              <span className="text-sm">Cash Drop</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/Jackpots")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white"
-            >
-              <FaTrophy className="text-xl" />
-              <span className="text-sm">Jackpots</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/Megaways")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white"
-            >
-              <span className="text-lg font-bold">M</span>
-              <span className="text-sm">Megaways</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/TableGames")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white"
-            >
-              <FaTableTennis className="text-xl" />
-              <span className="text-sm">Table Games</span>
-            </div>
+            {[
+              { label: "Demo", icon: <MdPlayCircleFilled />, path: "demo" },
+              { label: "All Games", icon: <FaDice className="text-red-500" />, path: "allgame", highlight: true },
+              { label: "Popular Games", icon: <FaCrown />, path: "PopularGames" },
+              { label: "New Games", icon: <FaStar />, path: "newGame" },
+              { label: "Cash Drop", icon: <FaMoneyBillWave />, path: "CashDrop" },
+              { label: "Jackpots", icon: <FaTrophy />, path: "Jackpots" },
+              { label: "Megaways", icon: <span className="text-lg font-bold">M</span>, path: "Megaways", text: true },
+              { label: "Table Games", icon: <FaTableTennis />, path: "TableGames" },
+            ].map((item, idx) => (
+              <div
+                key={idx}
+                onClick={() => router.push(`/game_navbar/${item.path}`)}
+                className={`flex flex-col items-center text-center cursor-pointer hover:text-white ${
+                  item.highlight ? "text-white" : ""
+                }`}
+              >
+                {item.icon}
+                <span className="text-sm">{item.label}</span>
+              </div>
+            ))}
           </div>
 
           {/* Right Section */}
@@ -124,62 +89,27 @@ const Navbar: React.FC = () => {
         {/* Mobile Navbar */}
         <div className="lg:hidden flex flex-col bg-[#020617] text-gray-300">
           <div className="flex overflow-x-auto space-x-4 px-4 py-3 scrollbar-hide">
-            <div
-              onClick={() => router.push("/game_navbar/demo")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px]"
-            >
-              <MdPlayCircleFilled className="text-xl" />
-              <span className="text-sm">Demo</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/allgame")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px] text-white"
-            >
-              <FaDice className="text-xl text-red-500" />
-              <span className="text-sm font-bold">All Games</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/PopularGames")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px]"
-            >
-              <FaCrown className="text-xl" />
-              <span className="text-sm">Popular Games</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/newGame")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px]"
-            >
-              <FaStar className="text-xl" />
-              <span className="text-sm">New Games</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/CashDrop")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px]"
-            >
-              <FaMoneyBillWave className="text-xl" />
-              <span className="text-sm">Cash Drop</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/Jackpots")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px]"
-            >
-              <FaTrophy className="text-xl" />
-              <span className="text-sm">Jackpots</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/Megaways")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px]"
-            >
-              <span className="text-lg font-bold">M</span>
-              <span className="text-sm">Megaways</span>
-            </div>
-            <div
-              onClick={() => router.push("/game_navbar/TableGames")}
-              className="flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px]"
-            >
-              <FaTableTennis className="text-xl" />
-              <span className="text-sm">Table Games</span>
-            </div>
+            {[
+              { label: "Demo", icon: <MdPlayCircleFilled />, path: "demo" },
+              { label: "All Games", icon: <FaDice className="text-red-500" />, path: "allgame", highlight: true },
+              { label: "Popular Games", icon: <FaCrown />, path: "PopularGames" },
+              { label: "New Games", icon: <FaStar />, path: "newGame" },
+              { label: "Cash Drop", icon: <FaMoneyBillWave />, path: "CashDrop" },
+              { label: "Jackpots", icon: <FaTrophy />, path: "Jackpots" },
+              { label: "Megaways", icon: <span className="text-lg font-bold">M</span>, path: "Megaways", text: true },
+              { label: "Table Games", icon: <FaTableTennis />, path: "TableGames" },
+            ].map((item, idx) => (
+              <div
+                key={idx}
+                onClick={() => router.push(`/game_navbar/${item.path}`)}
+                className={`flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px] ${
+                  item.highlight ? "text-white" : ""
+                }`}
+              >
+                {item.icon}
+                <span className="text-sm">{item.label}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import "../../styles/globals.css";
 
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
@@ -30,11 +31,14 @@ export default function RootLayout({
         <link rel="icon" href="/window.svg" />
       </head>
       <body
-        className={`${geistSans.variable} bg-[#020617] text-white min-h-screen`}
+        className={`${geistSans.variable} body bg-[#020617] text-white min-h-screen`}
       >
         {/* Header */}
-        <Header />
+        <header className="sticky top-0 z-[9999] shadow-md">
+          <Header />
+        </header>
 
+        {/* Main Layout */}
         <div className="flex flex-col lg:flex-row">
           {/* Sidebar - Hidden on mobile, visible on large screens */}
           <aside className="hidden lg:block lg:w-64">
@@ -42,7 +46,7 @@ export default function RootLayout({
           </aside>
 
           {/* Main Content */}
-          <main className="flex-1  pt-4  lg:px-8 bg-[#020617]">
+          <main className="flex-1 pt-4 lg:px-8 bg-[#020617]">
             <ClientLoaderWrapper>{children}</ClientLoaderWrapper>
           </main>
         </div>

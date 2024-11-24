@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        
       },
       animation: {
         "scale-up": "scaleUp 0.3s ease-in-out forwards",
