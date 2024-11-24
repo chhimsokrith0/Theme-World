@@ -1,8 +1,6 @@
-
 "use client";
 
 import React from "react";
-
 
 import Carousel from "@/app/components/Carousel";
 import Navbar from "@/app/components/Navbar";
@@ -15,56 +13,58 @@ import JackpotBanner from "@/app/components/features/jackpots/JackpotBanner";
 import AllGames from "@/app/components/features/games/AllGames";
 
 const HomePage: React.FC = () => {
-    return (
-        <>
-            <div className="px-6">
-                {/* Carousel Section */}
-                <section className="mb-6">
-                    <Carousel />
-                </section>
+  return (
+    <>
+      <div className="px-4 sm:px-6 lg:px-8">
+        {/* Carousel Section */}
+        <section className="mb-6">
+          <Carousel />
+        </section>
 
-                {/* Navigation Bar Section */}
-                <section className="max-w-[1200px] mx-auto p-4 border-t border-gray-700">
-                    <Navbar />
-                </section>
+        {/* Navigation Bar Section */}
+        <section className="max-w-[1200px] mx-auto p-4 border-t border-gray-700">
+          <Navbar />
+        </section>
 
-                {/* PopularGames Section */}
-                <section className="max-w-[1200px] mx-auto p-4 border-t border-gray-700">
-                    <PopularGames />
-                </section>
+        {/* Popular Games Section */}
+        <section className="max-w-[1200px] mx-auto p-4 border-t border-gray-700">
+          
+          <PopularGames />
+        </section>
 
-                {/* NewGames Section */}
-                <section className="max-w-[1200px] mx-auto p-4">
-                    <NewGames />
-                </section>
+        {/* New Games Section */}
+        <section className="max-w-[1200px] mx-auto p-4">
+         
+          <NewGames />
+        </section>
 
-                {/* Promotions Section */}
-                <section className="max-w-[1200px] mx-auto p-4">
-                    <Promotions />
-                </section>
+        {/* Promotions Section */}
+        <section className="max-w-[1200px] mx-auto p-4">
+          <Promotions />
+        </section>
 
-                {/* LiveCasino Section */}
-                <section className="max-w-[1200px] mx-auto p-4">
-                    <LiveCasino />
-                </section>
+        {/* Live Casino Section */}
+        <section className="max-w-[1200px] mx-auto p-4">
+          <LiveCasino />
+        </section>
 
-                {/* GameProviders Section */}
-                <section className="max-w-[1200px] mx-auto p-4">
-                    <GameProviders />
-                </section>
+        {/* Game Providers Section */}
+        <section className="max-w-[1200px] mx-auto p-4">
+          <GameProviders />
+        </section>
 
-                {/* JackpotBanner Section */}
-                <section className="max-w-[1200px] mx-auto p-4">
-                    <JackpotBanner />
-                </section>
+        {/* Jackpot Banner Section */}
+        <section className="max-w-[1200px] mx-auto p-4">
+          <JackpotBanner />
+        </section>
 
-                {/* AllGames Section */}
-                <section className="max-w-[1200px] mx-auto p-4">
-                    <AllGames />
-                </section>
-            </div>
-        </>
-    );
+        {/* All Games Section */}
+        <section className="max-w-[1200px] mx-auto p-4">
+          <AllGames />
+        </section>
+      </div>
+    </>
+  );
 };
 
 export default HomePage;

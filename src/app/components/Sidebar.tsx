@@ -11,11 +11,21 @@ import referralIcon from "@/app/assets/affiliate-marketing 1.svg";
 import Line from "@/app/assets/Line.png";
 import telegramIcon from "@/app/assets/telegram.png";
 import chatIcon from "@/app/assets/chat-icon.png";
-import { FaHome, FaDice, FaGamepad, FaFish, FaFutbol, FaCubes, FaChartBar, FaLanguage, FaChevronDown } from "react-icons/fa";
+import {
+  FaHome,
+  FaDice,
+  FaGamepad,
+  FaFish,
+  FaFutbol,
+  FaCubes,
+  FaChartBar,
+  FaLanguage,
+  FaChevronDown,
+} from "react-icons/fa";
 
 const Sidebar: React.FC = () => {
   return (
-    <div className="bg-gray-900 text-white w-64 h-[calc(100vh-64px)] px-4 py-6 fixed top-17 overflow-y-scroll scrollbar-hide z-50 shadow-md">
+    <div className="hidden sm:block bg-gray-900 text-white w-64 h-[calc(100vh-64px)] px-4 py-6 fixed top-17 overflow-y-scroll scrollbar-hide z-50 shadow-md">
       {/* Menu Section */}
       <div>
         {/* Home Menu */}
@@ -26,7 +36,6 @@ const Sidebar: React.FC = () => {
           </div>
         </Link>
 
-
         {/* Slots Menu */}
         <Link href="/game_sidebar/slots" passHref>
           <div className="flex items-center space-x-3 py-2 px-4 rounded-lg hover:bg-gray-800 cursor-pointer">
@@ -34,7 +43,6 @@ const Sidebar: React.FC = () => {
             <span className="font-medium text-gray-400">Slots</span>
           </div>
         </Link>
-
 
         {/* Live Casino */}
         <div className="flex items-center space-x-3 py-2 px-4 rounded-lg hover:bg-gray-800 cursor-pointer">

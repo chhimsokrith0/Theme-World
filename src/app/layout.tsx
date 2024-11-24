@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import ClientLoaderWrapper from "./components/ClientLoaderWrapper";
+import MobileNavBar from "./components/MobileNavBar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,19 +35,26 @@ export default function RootLayout({
         {/* Header */}
         <Header />
 
-        <div className="flex">
-          {/* Sidebar */}
-          <Sidebar />
+        <div className="flex flex-col lg:flex-row">
+          {/* Sidebar - Hidden on mobile, visible on large screens */}
+          <aside className="hidden lg:block lg:w-64">
+            <Sidebar />
+          </aside>
 
           {/* Main Content */}
-          <main className="flex-1 ml-64 pt-4 bg-[#020617]">
+          <main className="flex-1  pt-4  lg:px-8 bg-[#020617]">
             <ClientLoaderWrapper>{children}</ClientLoaderWrapper>
           </main>
         </div>
 
         {/* Footer */}
-        <div className="max-w-[1200px] mr-64 mx-auto p-4">
+        <footer className="max-w-[1200px] mx-auto lg:ml-auto lg:mr-64 p-4">
           <Footer />
+        </footer>
+
+        {/* Mobile Navigation Bar - Visible on mobile only */}
+        <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-[#020617] z-50 shadow-lg">
+          <MobileNavBar />
         </div>
       </body>
     </html>
