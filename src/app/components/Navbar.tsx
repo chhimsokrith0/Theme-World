@@ -53,43 +53,57 @@ const Navbar: React.FC = () => {
                     </div>
 
                     {/* All Games */}
-                    <div className="flex flex-col items-center text-center cursor-pointer text-white">
+                    <div 
+                    onClick={() => router.push("/game_navbar/allgame")}
+                    className="flex flex-col items-center text-center cursor-pointer text-white">
                         <FaDice className="text-xl text-red-500" />
                         <span className="text-sm font-bold">All Games</span>
                     </div>
 
                     {/* Popular Games */}
-                    <div className="flex flex-col items-center text-center cursor-pointer hover:text-white">
+                    <div 
+                     onClick={() => router.push("/game_navbar/PopularGames")}
+                    className="flex flex-col items-center text-center cursor-pointer hover:text-white">
                         <FaCrown className="text-xl" />
                         <span className="text-sm">Popular Games</span>
                     </div>
 
                     {/* New Games */}
-                    <div className="flex flex-col items-center text-center cursor-pointer hover:text-white">
+                    <div 
+                     onClick={() => router.push("/game_navbar/newGame")}
+                    className="flex flex-col items-center text-center cursor-pointer hover:text-white">
                         <FaStar className="text-xl" />
                         <span className="text-sm">New Games</span>
                     </div>
 
                     {/* Cash Drop */}
-                    <div className="flex flex-col items-center text-center cursor-pointer hover:text-white">
+                    <div 
+                    onClick={() => router.push("/game_navbar/CashDrop")}
+                    className="flex flex-col items-center text-center cursor-pointer hover:text-white">
                         <FaMoneyBillWave className="text-xl" />
                         <span className="text-sm">Cash Drop</span>
                     </div>
 
                     {/* Jackpots */}
-                    <div className="flex flex-col items-center text-center cursor-pointer hover:text-white">
+                    <div 
+                    onClick={() => router.push("/game_navbar/Jackpots")}
+                    className="flex flex-col items-center text-center cursor-pointer hover:text-white">
                         <FaTrophy className="text-xl" />
                         <span className="text-sm">Jackpots</span>
                     </div>
 
                     {/* Megaways */}
-                    <div className="flex flex-col items-center text-center cursor-pointer hover:text-white">
+                    <div 
+                    onClick={() => router.push("/game_navbar/Megaways")}
+                    className="flex flex-col items-center text-center cursor-pointer hover:text-white">
                         <span className="text-lg font-bold">M</span>
                         <span className="text-sm">Megaways</span>
                     </div>
 
                     {/* Table Games */}
-                    <div className="flex flex-col items-center text-center cursor-pointer hover:text-white">
+                    <div 
+                    onClick={() => router.push("/game_navbar/TableGames")}
+                    className="flex flex-col items-center text-center cursor-pointer hover:text-white">
                         <FaTableTennis className="text-xl" />
                         <span className="text-sm">Table Games</span>
                     </div>

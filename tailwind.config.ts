@@ -18,6 +18,7 @@ export default {
         "slide-down": "slideDown 0.5s ease-out forwards",
         "slide-up": "slideUp 0.5s ease-out forwards",
         "fade-out": "fadeOut 0.3s ease-in-out forwards",
+        bounce: "bounce 1.5s infinite ease-in-out",
       },
       keyframes: {
         scaleUp: {
@@ -39,6 +40,10 @@ export default {
         slideUp: {
           "0%": { transform: "translateY(20px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        bounce: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
         },
       },
     },

@@ -110,7 +110,7 @@ If you'd like to contribute, feel free to submit a pull request. Contributions a
 
 ## 📝 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [RITH License](LICENSE).
 
 ---
 

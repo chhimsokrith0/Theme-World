@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-// import "../styles/globals.css";
 import "./globals.css";
 
-// Import your Header, Sidebar, and Footer components
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
+import ClientLoaderWrapper from "./components/ClientLoaderWrapper";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,9 +40,7 @@ export default function RootLayout({
 
           {/* Main Content */}
           <main className="flex-1 ml-64 pt-4 bg-[#020617]">
-           
-              {children}
-
+            <ClientLoaderWrapper>{children}</ClientLoaderWrapper>
           </main>
         </div>
 

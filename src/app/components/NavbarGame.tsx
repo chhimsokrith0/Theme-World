@@ -52,14 +52,16 @@ const NavbarGame: React.FC = () => {
           </div>
 
           {/* All Games */}
-          <div className="flex flex-col items-center text-center cursor-pointer text-white">
+          <div 
+          onClick={() => router.push("/game_navbar/allgame")}
+          className="flex flex-col items-center text-center cursor-pointer text-white">
             <FaDice className="text-xl text-purple-500" />
             <span className="text-sm font-bold">All Games</span>
           </div>
 
           {/* Popular Games */}
           <div
-            onClick={() => router.push("/game_navbar/popular-games")}
+            onClick={() => router.push("/game_navbar/PopularGames")}
             className="flex flex-col items-center text-center cursor-pointer hover:text-white"
           >
             <FaCrown className="text-xl text-yellow-500" />
@@ -68,7 +70,7 @@ const NavbarGame: React.FC = () => {
 
           {/* New Games */}
           <div
-            onClick={() => router.push("/game_navbar/new-games")}
+            onClick={() => router.push("/game_navbar/newGame")}
             className="flex flex-col items-center text-center cursor-pointer hover:text-white"
           >
             <FaStar className="text-xl text-blue-500" />
@@ -77,7 +79,7 @@ const NavbarGame: React.FC = () => {
 
           {/* Cash Drop */}
           <div
-            onClick={() => router.push("/game_navbar/cash-drop")}
+            onClick={() => router.push("/game_navbar/CashDrop")}
             className="flex flex-col items-center text-center cursor-pointer hover:text-white"
           >
             <FaMoneyBillWave className="text-xl text-green-500" />
@@ -86,7 +88,7 @@ const NavbarGame: React.FC = () => {
 
           {/* Jackpots */}
           <div
-            onClick={() => router.push("/game_navbar/jackpots")}
+            onClick={() => router.push("/game_navbar/Jackpots")}
             className="flex flex-col items-center text-center cursor-pointer hover:text-white"
           >
             <FaTrophy className="text-xl text-orange-500" />
@@ -95,7 +97,7 @@ const NavbarGame: React.FC = () => {
 
           {/* Megaways */}
           <div
-            onClick={() => router.push("/game_navbar/megaways")}
+            onClick={() => router.push("/game_navbar/Megaways")}
             className="flex flex-col items-center text-center cursor-pointer hover:text-white"
           >
             <span className="text-lg font-bold text-purple-500">M</span>
@@ -104,7 +106,7 @@ const NavbarGame: React.FC = () => {
 
           {/* Table Games */}
           <div
-            onClick={() => router.push("/game_navbar/table-games")}
+            onClick={() => router.push("/game_navbar/TableGames")}
             className="flex flex-col items-center text-center cursor-pointer hover:text-white"
           >
             <FaTableTennis className="text-xl text-pink-500" />
