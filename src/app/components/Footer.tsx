@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
 
         {/* Footer Bottom */}
         <div className="border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
-          Powered By <span className="text-yellow-400 font-bold">PlayGame168</span>
+          Powered By <span className="text-yellow-400 font-bold">Rith CT</span>
         </div>
       </div>
 

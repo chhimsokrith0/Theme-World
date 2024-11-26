@@ -5,9 +5,21 @@ import Image from "next/image";
 import NavbarGame from "@/app/components/NavbarGame";
 import ClientLoaderWrapper from "@/app/components/ClientLoaderWrapper";
 
-const SlotsGames: React.FC = () => {
-  // Simulated empty games array
-  const demoGames: Array<{ title: string; provider: string; image: string }> = [];
+const Fishing: React.FC = () => {
+  const demoGames = [
+    { title: "Ways of the Qilin", provider: "PGSoft", image: "/img-fishing/1.png" },
+    { title: "Anubis Wrath", provider: "PGSoft", image: "/img-fishing/2.png" },
+    { title: "Fortune Dragon", provider: "PGSoft", image: "/img-fishing/3.png" },
+    { title: "Tsar Treasures", provider: "PGSoft", image: "/img-fishing/4.png" },
+    { title: "Chicky Run", provider: "PGSoft", image: "/img-fishing/5.png" },
+    { title: "Three Crazy Piggies", provider: "PGSoft", image: "/img-fishing/6.png" },
+    { title: "Gemstones Gold", provider: "PGSoft", image: "/img-fishing/7.png" },
+    { title: "Zombie Outbreak", provider: "PGSoft", image: "/img-fishing/8.png" },
+    { title: "Oishi Delights", provider: "PGSoft", image: "/img-fishing/9.png" },
+    { title: "Mystic Potion", provider: "PGSoft", image: "/img-fishing/10.png" },
+    { title: "Museum Mystery", provider: "PGSoft", image: "/img-fishing/11.png" },
+    { title: "Dragon's Treasure", provider: "PGSoft", image: "/img-fishing/12.png" },
+  ];
 
   return (
     <div className="px-6 py-4">
@@ -40,16 +52,7 @@ const SlotsGames: React.FC = () => {
             </div>
           ) : (
             <div className="flex flex-col items-center justify-center h-64 text-gray-400">
-              <div className="w-20 h-20">
-                <Image
-                  src="/nothing_box.webp"
-                  alt="Empty Box"
-                  width={80}
-                  height={80}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <p className="mt-4 text-lg">There&apos;s nothing here yet!</p>
+              <p className="text-lg">No games available</p>
             </div>
           )}
         </ClientLoaderWrapper>
@@ -66,4 +69,4 @@ const SlotsGames: React.FC = () => {
   );
 };
 
-export default SlotsGames;
+export default Fishing;

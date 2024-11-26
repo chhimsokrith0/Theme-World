@@ -7,7 +7,7 @@ import logo from "@/app/assets/logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FaFlagUsa } from "react-icons/fa";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 
 const Header: React.FC = () => {
 

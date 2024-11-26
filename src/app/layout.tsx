@@ -54,7 +54,7 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="max-w-[1200px] mx-auto lg:ml-auto lg:mr-64 p-4">
           <Footer />
-        </footer>
+        </footer><br /><br /><br /><br /><br /><br />
 
         {/* Mobile Navigation Bar - Visible on mobile only */}
         <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-[#020617] z-50 shadow-lg">
