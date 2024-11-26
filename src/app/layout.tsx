@@ -34,14 +34,14 @@ export default function RootLayout({
         className={`${geistSans.variable} body bg-[#020617] text-white min-h-screen`}
       >
         {/* Header */}
-        <header className="sticky top-0 z-[9999] shadow-md">
+        <header className="sticky top-0 z-[100] shadow-md">
           <Header />
         </header>
 
         {/* Main Layout */}
         <div className="flex flex-col lg:flex-row">
           {/* Sidebar - Hidden on mobile, visible on large screens */}
-          <aside className="hidden lg:block lg:w-64">
+          <aside className="hidden lg:block lg:w-64 z-[9999]">
             <Sidebar />
           </aside>
 

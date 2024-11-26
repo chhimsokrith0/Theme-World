@@ -11,7 +11,6 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        
       },
       animation: {
         "scale-up": "scaleUp 0.3s ease-in-out forwards",
@@ -19,7 +18,9 @@ export default {
         "slide-down": "slideDown 0.5s ease-out forwards",
         "slide-up": "slideUp 0.5s ease-out forwards",
         "fade-out": "fadeOut 0.3s ease-in-out forwards",
-        bounce: "bounce 1.5s infinite ease-in-out",
+        "pulse-slow": "pulse 2s infinite",
+        "spin-slow": "spin 2s linear infinite",
+        "bounce-slow": "bounce 2s infinite",
       },
       keyframes: {
         scaleUp: {
@@ -45,6 +46,14 @@ export default {
         bounce: {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-10px)" },
+        },
+        pulse: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.5" },
+        },
+        spin: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
         },
       },
     },

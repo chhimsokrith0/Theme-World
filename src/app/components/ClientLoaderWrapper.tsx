@@ -11,7 +11,7 @@ export default function ClientLoaderWrapper({
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsLoading(false), 1500); // Simulate loading delay
+    const timeout = setTimeout(() => setIsLoading(false), 100); // Simulate loading delay
     return () => clearTimeout(timeout);
   }, []);
 

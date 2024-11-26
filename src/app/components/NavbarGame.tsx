@@ -20,7 +20,16 @@ const NavbarGame: React.FC = () => {
 
   const [isModalOpen, setModalOpen] = useState(false);
 
+  // State for the active menu
+  const [activeMenu, setActiveMenu] = useState("All Games");
+
   const toggleModal = () => setModalOpen(!isModalOpen);
+
+  // Handle menu click and update active menu
+  const handleMenuClick = (menu: string, route: string) => {
+    setActiveMenu(menu);
+    router.push(route);
+  };
 
   return (
     <div className="px-4 py-6">
@@ -29,12 +38,12 @@ const NavbarGame: React.FC = () => {
         <Link href="/" passHref>
           <span className="hover:text-white cursor-pointer">Home</span>
         </Link>{" "}
-        / <span className="text-white">Games</span>
+        / <span className="text-white">{activeMenu}</span>
       </div>
 
       {/* Title */}
       <div className="mb-6">
-        <h1 className="text-3xl font-bold text-white">Games</h1>
+        <h1 className="text-3xl font-bold text-white">{activeMenu}</h1>
         <p className="text-sm text-gray-400">216 Games</p>
       </div>
 
@@ -44,25 +53,36 @@ const NavbarGame: React.FC = () => {
         <div className="flex items-center space-x-8">
           {/* Demo */}
           <div
-            onClick={() => router.push("/game_navbar/demo")}
-            className="flex flex-col items-center text-center cursor-pointer hover:text-white"
+            onClick={() => handleMenuClick("Demo", "/game_navbar/demo")}
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "Demo" ? "text-white" : "hover:text-white"
+            }`}
           >
             <MdPlayCircleFilled className="text-xl text-green-400" />
             <span className="text-sm font-semibold">Demo</span>
           </div>
 
           {/* All Games */}
-          <div 
-          onClick={() => router.push("/game_navbar/allgame")}
-          className="flex flex-col items-center text-center cursor-pointer text-white">
+          <div
+            onClick={() => handleMenuClick("All Games", "/game_navbar/allgame")}
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "All Games" ? "text-white" : "hover:text-white"
+            }`}
+          >
             <FaDice className="text-xl text-purple-500" />
             <span className="text-sm font-bold">All Games</span>
           </div>
 
           {/* Popular Games */}
           <div
-            onClick={() => router.push("/game_navbar/PopularGames")}
-            className="flex flex-col items-center text-center cursor-pointer hover:text-white"
+            onClick={() =>
+              handleMenuClick("Popular Games", "/game_navbar/PopularGames")
+            }
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "Popular Games"
+                ? "text-white"
+                : "hover:text-white"
+            }`}
           >
             <FaCrown className="text-xl text-yellow-500" />
             <span className="text-sm">Popular Games</span>
@@ -70,8 +90,10 @@ const NavbarGame: React.FC = () => {
 
           {/* New Games */}
           <div
-            onClick={() => router.push("/game_navbar/newGame")}
-            className="flex flex-col items-center text-center cursor-pointer hover:text-white"
+            onClick={() => handleMenuClick("New Games", "/game_navbar/newGame")}
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "New Games" ? "text-white" : "hover:text-white"
+            }`}
           >
             <FaStar className="text-xl text-blue-500" />
             <span className="text-sm">New Games</span>
@@ -79,8 +101,12 @@ const NavbarGame: React.FC = () => {
 
           {/* Cash Drop */}
           <div
-            onClick={() => router.push("/game_navbar/CashDrop")}
-            className="flex flex-col items-center text-center cursor-pointer hover:text-white"
+            onClick={() =>
+              handleMenuClick("Cash Drop", "/game_navbar/CashDrop")
+            }
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "Cash Drop" ? "text-white" : "hover:text-white"
+            }`}
           >
             <FaMoneyBillWave className="text-xl text-green-500" />
             <span className="text-sm">Cash Drop</span>
@@ -88,8 +114,10 @@ const NavbarGame: React.FC = () => {
 
           {/* Jackpots */}
           <div
-            onClick={() => router.push("/game_navbar/Jackpots")}
-            className="flex flex-col items-center text-center cursor-pointer hover:text-white"
+            onClick={() => handleMenuClick("Jackpots", "/game_navbar/Jackpots")}
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "Jackpots" ? "text-white" : "hover:text-white"
+            }`}
           >
             <FaTrophy className="text-xl text-orange-500" />
             <span className="text-sm">Jackpots</span>
@@ -97,8 +125,12 @@ const NavbarGame: React.FC = () => {
 
           {/* Megaways */}
           <div
-            onClick={() => router.push("/game_navbar/Megaways")}
-            className="flex flex-col items-center text-center cursor-pointer hover:text-white"
+            onClick={() =>
+              handleMenuClick("Megaways", "/game_navbar/Megaways")
+            }
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "Megaways" ? "text-white" : "hover:text-white"
+            }`}
           >
             <span className="text-lg font-bold text-purple-500">M</span>
             <span className="text-sm">Megaways</span>
@@ -106,8 +138,14 @@ const NavbarGame: React.FC = () => {
 
           {/* Table Games */}
           <div
-            onClick={() => router.push("/game_navbar/TableGames")}
-            className="flex flex-col items-center text-center cursor-pointer hover:text-white"
+            onClick={() =>
+              handleMenuClick("Table Games", "/game_navbar/TableGames")
+            }
+            className={`flex flex-col items-center text-center cursor-pointer ${
+              activeMenu === "Table Games"
+                ? "text-white"
+                : "hover:text-white"
+            }`}
           >
             <FaTableTennis className="text-xl text-pink-500" />
             <span className="text-sm">Table Games</span>
@@ -122,13 +160,16 @@ const NavbarGame: React.FC = () => {
             className="bg-transparent text-sm outline-none"
           />
           <BiSearch className="text-lg cursor-pointer hover:text-white" />
-          <FiSettings onClick={toggleModal} className="text-lg cursor-pointer hover:text-white" />
+          <FiSettings
+            onClick={toggleModal}
+            className="text-lg cursor-pointer hover:text-white"
+          />
         </div>
       </div>
+
       {/* Filter Modal */}
       <FilterModal isOpen={isModalOpen} onClose={toggleModal} />
     </div>
-    
   );
 };
 
