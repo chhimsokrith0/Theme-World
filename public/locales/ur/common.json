@@ -1,0 +1,191 @@
+{
+    "welcome": "ہماری ویب سائٹ پر خوش آمدید",
+    "languageSwitch": "زبان تبدیل کریں",
+    "slidebar": {
+        "home": "ہوم",
+        "slots": "سلاٹس",
+        "liveCasino": "لائیو کیسینو",
+        "privileges": "خصوصیات",
+        "quests": "مشنز",
+        "reward": "انعام",
+        "promo": "پرومو",
+        "levels": "سطحیں",
+        "referral": "حوالہ",
+        "providers": "فراہم کنندگان",
+        "rtpSlots": "آر ٹی پی سلاٹس",
+        "sports": "کھیل",
+        "fishing": "ماہی گیری",
+        "virtual": "ورچوئل",
+        "languageOption": "زبان کا انتخاب",
+        "contactSocialMedia": "رابطہ اور سوشل میڈیا"
+    },
+    "navbar": {
+        "demo": "ڈیمو",
+        "allGames": "تمام کھیل",
+        "popularGames": "مشہور کھیل",
+        "newGames": "نئے کھیل",
+        "cashDrop": "کیش ڈراپ",
+        "jackpots": "جیک پاٹس",
+        "megaways": "میگا ویز",
+        "tableGames": "ٹیبل گیمز",
+        "providers": "فراہم کنندگان"
+    },
+    "popularGames": {
+        "title": "مشہور کھیل",
+        "seeAll": "سب دیکھیں",
+        "games": {
+            "jewelMania": "جیول مینیہ",
+            "hotFruitsOnFire": "گرم پھل آن فائر",
+            "barsAndBells": "#بارز اینڈ بیلز",
+            "reelReelHot": "ریل ریل ہاٹ",
+            "spiritOfTheLake": "جھیل کی روح",
+            "twinWinsMystery": "جڑواں جیت کے اسرار"
+        },
+        "provider": "مینکالا"
+    },
+    "newGames": {
+        "title": "نئے کھیل",
+        "seeAll": "سب دیکھیں",
+        "games": {
+            "spiritOfTheLake": "جھیل کی روح",
+            "twinWinsMystery": "جڑواں جیت کے اسرار"
+        },
+        "provider": "مینکالا"
+    },
+    "promotions": {
+        "title": "ترقیات",
+        "seeAll": "سب دیکھیں"
+    },
+    "liveCasino": {
+        "title": "لائیو کیسینو",
+        "seeAll": "سب دیکھیں",
+        "games": {
+            "pragmaticLive": "پریگمیٹک لائیو",
+            "baccaratC08": "باکارات C08",
+            "baccarat": "باکارات",
+            "dreamGaming": "ڈریم گیمنگ",
+            "topGamesLobby": "ٹاپ گیمز لابی",
+            "liveCasino": "لائیو کیسینو"
+        },
+        "providers": {
+            "pragmaticPlay": "پریگمیٹک پلے",
+            "sa": "ایس اے",
+            "aeSexy": "اے ای سیکسی",
+            "dreamGaming": "ڈریم گیمنگ",
+            "evolutionGaming": "ایوولوشن گیمنگ",
+            "weGaming": "وی گیمنگ"
+        }
+    },
+    "gameProviders": {
+        "title": "گیم فراہم کنندگان",
+        "seeAll": "سب دیکھیں",
+        "providers": {
+            "pg": {
+                "name": "پی جی",
+                "description": "پاکٹ گیمز سوفٹ",
+                "play": "کھیلیں"
+            },
+            "joker": {
+                "name": "جوکر",
+                "description": "جوکر",
+                "play": "کھیلیں"
+            },
+            "jili": {
+                "name": "جی آئی ایل آئی",
+                "description": "جی آئی ایل آئی",
+                "play": "کھیلیں"
+            },
+            "pragmaticPlay": {
+                "name": "پریگمیٹک پلے",
+                "description": "پریگمیٹک پلے",
+                "play": "کھیلیں"
+            }
+        }
+    },
+    "allGames": {
+        "title": "تمام کھیل",
+        "seeAll": "سب دیکھیں",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "نینجا ریکون فرنزی",
+                "provider": "پی جی سوفٹ"
+            },
+            "treasuresOfAztec": {
+                "name": "آزٹیک کے خزانے",
+                "provider": "پی جی سوفٹ"
+            },
+            "mahjongWays2": {
+                "name": "ماہجونگ ویز 2",
+                "provider": "پی جی سوفٹ"
+            },
+            "luckyNeko": {
+                "name": "لکی نیکو",
+                "provider": "پی جی سوفٹ"
+            },
+            "mahjongWays": {
+                "name": "ماہجونگ ویز",
+                "provider": "پی جی سوفٹ"
+            },
+            "wildBountyShowdown": {
+                "name": "وائلڈ باؤنٹی شوڈاؤن",
+                "provider": "پی جی سوفٹ"
+            },
+            "waysOfTheQilin": {
+                "name": "کیلن کا راستہ",
+                "provider": "پی جی سوفٹ"
+            },
+            "wildBandito": {
+                "name": "وائلڈ بانڈیتو",
+                "provider": "پی جی سوفٹ"
+            },
+            "fortuneRabbit": {
+                "name": "خوش قسمتی خرگوش",
+                "provider": "پی جی سوفٹ"
+            },
+            "caishenWins": {
+                "name": "کائشین جیت",
+                "provider": "پی جی سوفٹ"
+            },
+            "fortuneOx": {
+                "name": "خوش قسمتی بیل",
+                "provider": "پی جی سوفٹ"
+            },
+            "ganeshaFortune": {
+                "name": "گنیشا کی خوش قسمتی",
+                "provider": "پی جی سوفٹ"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "کھیل کی اقسام",
+        "categories": {
+            "demo": "ڈیمو",
+            "newGames": "نئے کھیل",
+            "popular": "مشہور",
+            "cashDrops": "کیش ڈراپس",
+            "jackpots": "جیک پاٹس",
+            "megaways": "میگا ویز",
+            "tableGames": "ٹیبل گیمز",
+            "allGames": "تمام کھیل"
+        },
+        "liveCasino": "لائیو کیسینو",
+        "allLiveCasino": "تمام لائیو کیسینو",
+        "specials": {
+            "quests": "مشنز",
+            "reward": "انعام",
+            "referral": "حوالہ",
+            "level": "سطح"
+        },
+        "information": {
+            "termsAndConditions": "شرائط و ضوابط",
+            "privacyPolicy": "پرائیویسی پالیسی",
+            "cookiesPolicy": "کوکیز پالیسی"
+        },
+        "followUs": "ہمیں فالو کریں",
+        "poweredBy": "پاورڈ بائی Rith CT"
+    },
+    "header": {
+        "signUp": "سائن اپ",
+        "signIn": "سائن ان"
+    }
+}

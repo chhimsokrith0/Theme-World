@@ -14,10 +14,12 @@ import { MdPlayCircleFilled } from "react-icons/md";
 import { BiSearch } from "react-icons/bi";
 import ProviderModal from "@/app/components/ProviderModal";
 import SearchModal from "@/app/components/SearchModal";
+import { useTranslation } from "react-i18next";
 
 const Navbar: React.FC = () => {
   const [isProviderModalOpen, setIsProviderModalOpen] = useState(false);
   const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
+  const { t } = useTranslation();
 
   const providers = [
     { name: "PGSoft", logo: "/logos/pgsoft.png" },
@@ -47,21 +49,20 @@ const Navbar: React.FC = () => {
           {/* Navigation Items */}
           <div className="flex items-center space-x-6">
             {[
-              { label: "Demo", icon: <MdPlayCircleFilled />, path: "demo" },
-              { label: "All Games", icon: <FaDice className="text-red-500" />, path: "allgame", highlight: true },
-              { label: "Popular Games", icon: <FaCrown />, path: "PopularGames" },
-              { label: "New Games", icon: <FaStar />, path: "newGame" },
-              { label: "Cash Drop", icon: <FaMoneyBillWave />, path: "CashDrop" },
-              { label: "Jackpots", icon: <FaTrophy />, path: "Jackpots" },
-              { label: "Megaways", icon: <span className="text-lg font-bold">M</span>, path: "Megaways", text: true },
-              { label: "Table Games", icon: <FaTableTennis />, path: "TableGames" },
+              { label: t("navbar.demo"), icon: <MdPlayCircleFilled />, path: "demo" },
+              { label: t("navbar.allGames"), icon: <FaDice className="text-red-500" />, path: "allgame", highlight: true },
+              { label: t("navbar.popularGames"), icon: <FaCrown />, path: "PopularGames" },
+              { label: t("navbar.newGames"), icon: <FaStar />, path: "newGame" },
+              { label: t("navbar.cashDrop"), icon: <FaMoneyBillWave />, path: "CashDrop" },
+              { label: t("navbar.jackpots"), icon: <FaTrophy />, path: "Jackpots" },
+              { label: t("navbar.megaways"), icon: <span className="text-lg font-bold">M</span>, path: "Megaways", text: true },
+              { label: t("navbar.tableGames"), icon: <FaTableTennis />, path: "TableGames" },
             ].map((item, idx) => (
               <div
                 key={idx}
                 onClick={() => router.push(`/game_navbar/${item.path}`)}
-                className={`flex flex-col items-center text-center cursor-pointer hover:text-white ${
-                  item.highlight ? "text-white" : ""
-                }`}
+                className={`flex flex-col items-center text-center cursor-pointer hover:text-white ${item.highlight ? "text-white" : ""
+                  }`}
               >
                 {item.icon}
                 <span className="text-sm">{item.label}</span>
@@ -75,7 +76,7 @@ const Navbar: React.FC = () => {
               onClick={() => setIsProviderModalOpen(true)}
               className="px-4 py-2 bg-gray-800 rounded-full text-gray-300 hover:text-white transition"
             >
-              Providers
+              {t("navbar.providers")}
             </button>
             <div
               onClick={() => setIsSearchModalOpen(true)}
@@ -90,21 +91,20 @@ const Navbar: React.FC = () => {
         <div className="lg:hidden flex flex-col bg-[#020617] text-gray-300">
           <div className="flex overflow-x-auto space-x-4 px-4 py-3 scrollbar-hide">
             {[
-              { label: "Demo", icon: <MdPlayCircleFilled />, path: "demo" },
-              { label: "All Games", icon: <FaDice className="text-red-500" />, path: "allgame", highlight: true },
-              { label: "Popular Games", icon: <FaCrown />, path: "PopularGames" },
-              { label: "New Games", icon: <FaStar />, path: "newGame" },
-              { label: "Cash Drop", icon: <FaMoneyBillWave />, path: "CashDrop" },
-              { label: "Jackpots", icon: <FaTrophy />, path: "Jackpots" },
-              { label: "Megaways", icon: <span className="text-lg font-bold">M</span>, path: "Megaways", text: true },
-              { label: "Table Games", icon: <FaTableTennis />, path: "TableGames" },
+              { label: t("navbar.demo"), icon: <MdPlayCircleFilled />, path: "demo" },
+              { label: t("navbar.allGames"), icon: <FaDice className="text-red-500" />, path: "allgame", highlight: true },
+              { label: t("navbar.popularGames"), icon: <FaCrown />, path: "PopularGames" },
+              { label: t("navbar.newGames"), icon: <FaStar />, path: "newGame" },
+              { label: t("navbar.cashDrop"), icon: <FaMoneyBillWave />, path: "CashDrop" },
+              { label: t("navbar.jackpots"), icon: <FaTrophy />, path: "Jackpots" },
+              { label: t("navbar.megaways"), icon: <span className="text-lg font-bold">M</span>, path: "Megaways", text: true },
+              { label: t("navbar.tableGames"), icon: <FaTableTennis />, path: "TableGames" },
             ].map((item, idx) => (
               <div
                 key={idx}
                 onClick={() => router.push(`/game_navbar/${item.path}`)}
-                className={`flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px] ${
-                  item.highlight ? "text-white" : ""
-                }`}
+                className={`flex flex-col items-center text-center cursor-pointer hover:text-white min-w-[80px] ${item.highlight ? "text-white" : ""
+                  }`}
               >
                 {item.icon}
                 <span className="text-sm">{item.label}</span>

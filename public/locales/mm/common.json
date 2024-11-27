@@ -1,0 +1,191 @@
+{
+    "welcome": "ကျွန်ုပ်တို့၏ဝဘ်ဆိုက်သို့ ကြိုဆိုပါသည်",
+    "languageSwitch": "ဘာသာစကား ပြောင်းရန်",
+    "slidebar": {
+        "home": "မူလ",
+        "slots": "စလော့များ",
+        "liveCasino": "တိုက်ရိုက်ကာစီနို",
+        "privileges": "အခွင့်အရေးများ",
+        "quests": "လှည့်ပတ်များ",
+        "reward": "ဆုများ",
+        "promo": "ပရိုမိုးရှင်း",
+        "levels": "အဆင့်များ",
+        "referral": "ရင်းနှီးသူ မိတ်ဆက်ခြင်း",
+        "providers": "ပေးသွင်းသူများ",
+        "rtpSlots": "RTP စလော့များ",
+        "sports": "အားကစား",
+        "fishing": "ငါးဖမ်း",
+        "virtual": "ကိုယ်တိုင်ဖန်တီးသော",
+        "languageOption": "ဘာသာစကားရွေးချယ်မှု",
+        "contactSocialMedia": "ဆက်သွယ်မှု နှင့် လူမှုကွန်ရက်များ"
+    },
+    "navbar": {
+        "demo": "နမူနာ",
+        "allGames": "ဂိမ်းအားလုံး",
+        "popularGames": "လူကြိုက်များသော ဂိမ်းများ",
+        "newGames": "ဂိမ်းအသစ်များ",
+        "cashDrop": "ငွေကြေးလွှတ်ပေးခြင်း",
+        "jackpots": "ဂျက်ချက်",
+        "megaways": "မီဂာဝေး",
+        "tableGames": "စားပွဲဂိမ်းများ",
+        "providers": "ပေးသွင်းသူများ"
+    },
+    "popularGames": {
+        "title": "လူကြိုက်များသော ဂိမ်းများ",
+        "seeAll": "အားလုံးကြည့်ရန်",
+        "games": {
+            "jewelMania": "ကျောက်မျက်အိုးဟောင်း",
+            "hotFruitsOnFire": "ပူပြင်းသော အသီးများ",
+            "barsAndBells": "#ဘားများနှင့် ခေါင်းလောင်းများ",
+            "reelReelHot": "ရီးလ်ပူပြင်းပူပြင်း",
+            "spiritOfTheLake": "ရေကန်၏ ဝိညာဉ်",
+            "twinWinsMystery": "အောင်မြင်မှုများ၏ နက်နဲသောအရာ"
+        },
+        "provider": "Mancala"
+    },
+    "newGames": {
+        "title": "ဂိမ်းအသစ်များ",
+        "seeAll": "အားလုံးကြည့်ရန်",
+        "games": {
+            "spiritOfTheLake": "ရေကန်၏ ဝိညာဉ်",
+            "twinWinsMystery": "အောင်မြင်မှုများ၏ နက်နဲသောအရာ"
+        },
+        "provider": "Mancala"
+    },
+    "promotions": {
+        "title": "ပရိုမိုးရှင်းများ",
+        "seeAll": "အားလုံးကြည့်ရန်"
+    },
+    "liveCasino": {
+        "title": "တိုက်ရိုက်ကာစီနို",
+        "seeAll": "အားလုံးကြည့်ရန်",
+        "games": {
+            "pragmaticLive": "Pragmatic တိုက်ရိုက်",
+            "baccaratC08": "Baccarat C08",
+            "baccarat": "Baccarat",
+            "dreamGaming": "Dream Gaming",
+            "topGamesLobby": "ထိပ်တန်းဂိမ်းများ",
+            "liveCasino": "တိုက်ရိုက်ကာစီနို"
+        },
+        "providers": {
+            "pragmaticPlay": "Pragmatic Play",
+            "sa": "SA",
+            "aeSexy": "AE Sexy",
+            "dreamGaming": "Dream Gaming",
+            "evolutionGaming": "Evolution Gaming",
+            "weGaming": "We Gaming"
+        }
+    },
+    "gameProviders": {
+        "title": "ဂိမ်းပေးသွင်းသူများ",
+        "seeAll": "အားလုံးကြည့်ရန်",
+        "providers": {
+            "pg": {
+                "name": "PG",
+                "description": "Pocket Games Soft",
+                "play": "ကစားရန်"
+            },
+            "joker": {
+                "name": "Joker",
+                "description": "Joker",
+                "play": "ကစားရန်"
+            },
+            "jili": {
+                "name": "JILI",
+                "description": "JILI",
+                "play": "ကစားရန်"
+            },
+            "pragmaticPlay": {
+                "name": "Pragmatic Play",
+                "description": "Pragmatic Play",
+                "play": "ကစားရန်"
+            }
+        }
+    },
+    "allGames": {
+        "title": "ဂိမ်းအားလုံး",
+        "seeAll": "အားလုံးကြည့်ရန်",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "Ninja Raccoon Frenzy",
+                "provider": "PGSoft"
+            },
+            "treasuresOfAztec": {
+                "name": "Treasures of Aztec",
+                "provider": "PGSoft"
+            },
+            "mahjongWays2": {
+                "name": "Mahjong Ways 2",
+                "provider": "PGSoft"
+            },
+            "luckyNeko": {
+                "name": "Lucky Neko",
+                "provider": "PGSoft"
+            },
+            "mahjongWays": {
+                "name": "Mahjong Ways",
+                "provider": "PGSoft"
+            },
+            "wildBountyShowdown": {
+                "name": "Wild Bounty Showdown",
+                "provider": "PGSoft"
+            },
+            "waysOfTheQilin": {
+                "name": "Ways of the Qilin",
+                "provider": "PGSoft"
+            },
+            "wildBandito": {
+                "name": "Wild Bandito",
+                "provider": "PGSoft"
+            },
+            "fortuneRabbit": {
+                "name": "Fortune Rabbit",
+                "provider": "PGSoft"
+            },
+            "caishenWins": {
+                "name": "Caishen Wins",
+                "provider": "PGSoft"
+            },
+            "fortuneOx": {
+                "name": "Fortune Ox",
+                "provider": "PGSoft"
+            },
+            "ganeshaFortune": {
+                "name": "Ganesha Fortune",
+                "provider": "PGSoft"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "ဂိမ်းအမျိုးအစား",
+        "categories": {
+            "demo": "နမူနာ",
+            "newGames": "ဂိမ်းအသစ်များ",
+            "popular": "လူကြိုက်များ",
+            "cashDrops": "ငွေကြေးလွှတ်ပေးခြင်း",
+            "jackpots": "ဂျက်ချက်",
+            "megaways": "မီဂာဝေး",
+            "tableGames": "စားပွဲဂိမ်းများ",
+            "allGames": "ဂိမ်းအားလုံး"
+        },
+        "liveCasino": "တိုက်ရိုက်ကာစီနို",
+        "allLiveCasino": "တိုက်ရိုက်ကာစီနိုများ",
+        "specials": {
+            "quests": "လှည့်ပတ်များ",
+            "reward": "ဆုများ",
+            "referral": "ရင်းနှီးသူ မိတ်ဆက်ခြင်း",
+            "level": "အဆင့်"
+        },
+        "information": {
+            "termsAndConditions": "စည်းကမ်းနှင့် အခြေအနေများ",
+            "privacyPolicy": "ကိုယ်ရေးအချက်အလက် မူဝါဒ",
+            "cookiesPolicy": "ကွတ်ကီး မူဝါဒ"
+        },
+        "followUs": "ကျွန်ုပ်တို့ကို နောက်လိုက်ပါ",
+        "poweredBy": "ထုတ်လုပ်သူ Rith CT"
+    },
+    "header": {
+        "signUp": "မှတ်ပုံတင်ပါ",
+        "signIn": "လော့ဂ်အင်"
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "welcome": "हमारी वेबसाइट पर आपका स्वागत है",
+    "languageSwitch": "भाषा बदलें",
+    "slidebar": {
+        "home": "होम",
+        "slots": "स्लॉट्स",
+        "liveCasino": "लाइव कैसीनो",
+        "privileges": "विशेषाधिकार",
+        "quests": "खोज",
+        "reward": "इनाम",
+        "promo": "प्रोमो",
+        "levels": "स्तर",
+        "referral": "रेफरल",
+        "providers": "प्रदाता",
+        "rtpSlots": "आरटीपी स्लॉट्स",
+        "sports": "खेल",
+        "fishing": "मछली पकड़ना",
+        "virtual": "आभासी",
+        "languageOption": "भाषा विकल्प",
+        "contactSocialMedia": "संपर्क और सामाजिक मीडिया"
+    },
+    "navbar": {
+        "demo": "डेमो",
+        "allGames": "सभी खेल",
+        "popularGames": "लोकप्रिय खेल",
+        "newGames": "नए खेल",
+        "cashDrop": "कैश ड्रॉप",
+        "jackpots": "जैकपॉट",
+        "megaways": "मेगावेज़",
+        "tableGames": "टेबल खेल",
+        "providers": "प्रदाता"
+    },
+    "popularGames": {
+        "title": "लोकप्रिय खेल",
+        "seeAll": "सभी देखें",
+        "games": {
+            "jewelMania": "ज्वेल मेनिया",
+            "hotFruitsOnFire": "हॉट फ्रूट्स ऑन फायर",
+            "barsAndBells": "#बार्स एंड बेल्स",
+            "reelReelHot": "रील रील हॉट",
+            "spiritOfTheLake": "स्पिरिट ऑफ द लेक",
+            "twinWinsMystery": "द ट्विन विंस मिस्ट्री"
+        },
+        "provider": "मंकाला"
+    },
+    "newGames": {
+        "title": "नए खेल",
+        "seeAll": "सभी देखें",
+        "games": {
+            "spiritOfTheLake": "स्पिरिट ऑफ द लेक",
+            "twinWinsMystery": "द ट्विन विंस मिस्ट्री"
+        },
+        "provider": "मंकाला"
+    },
+    "promotions": {
+        "title": "प्रमोशन्स",
+        "seeAll": "सभी देखें"
+    },
+    "liveCasino": {
+        "title": "लाइव कैसीनो",
+        "seeAll": "सभी देखें",
+        "games": {
+            "pragmaticLive": "प्रैग्मैटिक लाइव",
+            "baccaratC08": "बैकारेट C08",
+            "baccarat": "बैकारेट",
+            "dreamGaming": "ड्रीम गेमिंग",
+            "topGamesLobby": "टॉप गेम्स लॉबी",
+            "liveCasino": "लाइव कैसीनो"
+        },
+        "providers": {
+            "pragmaticPlay": "प्रैग्मैटिकप्ले",
+            "sa": "एसए",
+            "aeSexy": "एई सेक्सी",
+            "dreamGaming": "ड्रीम गेमिंग",
+            "evolutionGaming": "इवोल्यूशन गेमिंग",
+            "weGaming": "वी गेमिंग"
+        }
+    },
+    "gameProviders": {
+        "title": "गेम प्रदाता",
+        "seeAll": "सभी देखें",
+        "providers": {
+            "pg": {
+                "name": "पीजी",
+                "description": "पॉकेट गेम्स सॉफ्ट",
+                "play": "खेलें"
+            },
+            "joker": {
+                "name": "जोकर",
+                "description": "जोकर",
+                "play": "खेलें"
+            },
+            "jili": {
+                "name": "जिली",
+                "description": "जिली",
+                "play": "खेलें"
+            },
+            "pragmaticPlay": {
+                "name": "प्रैग्मैटिक प्ले",
+                "description": "प्रैग्मैटिक प्ले",
+                "play": "खेलें"
+            }
+        }
+    },
+    "allGames": {
+        "title": "सभी खेल",
+        "seeAll": "सभी देखें",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "निंजा रैकून फ्रेंज़ी",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "treasuresOfAztec": {
+                "name": "एज़्टेक के खजाने",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "mahjongWays2": {
+                "name": "महजोंग वेज़ 2",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "luckyNeko": {
+                "name": "लकी नेको",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "mahjongWays": {
+                "name": "महजोंग वेज़",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "wildBountyShowdown": {
+                "name": "वाइल्ड बाउंटी शोडाउन",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "waysOfTheQilin": {
+                "name": "किलिन के तरीके",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "wildBandito": {
+                "name": "वाइल्ड बंडिटो",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "fortuneRabbit": {
+                "name": "भाग्यशाली खरगोश",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "caishenWins": {
+                "name": "कैशेन जीतता है",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "fortuneOx": {
+                "name": "भाग्यशाली बैल",
+                "provider": "पीजीसॉफ्ट"
+            },
+            "ganeshaFortune": {
+                "name": "गणेश भाग्य",
+                "provider": "पीजीसॉफ्ट"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "गेम श्रेणी",
+        "categories": {
+            "demo": "डेमो",
+            "newGames": "नए खेल",
+            "popular": "लोकप्रिय",
+            "cashDrops": "कैश ड्रॉप्स",
+            "jackpots": "जैकपॉट्स",
+            "megaways": "मेगावेयस",
+            "tableGames": "टेबल गेम्स",
+            "allGames": "सभी खेल"
+        },
+        "liveCasino": "लाइव कैसीनो",
+        "allLiveCasino": "सभी लाइव कैसीनो",
+        "specials": {
+            "quests": "कार्य",
+            "reward": "इनाम",
+            "referral": "रेफरल",
+            "level": "स्तर"
+        },
+        "information": {
+            "termsAndConditions": "नियम और शर्तें",
+            "privacyPolicy": "गोपनीयता नीति",
+            "cookiesPolicy": "कुकीज़ नीति"
+        },
+        "followUs": "हमें फॉलो करें",
+        "poweredBy": "रिथ CT द्वारा संचालित"
+    },
+    "header": {
+        "signUp": "साइन अप करें",
+        "signIn": "साइन इन करें"
+    }
+}

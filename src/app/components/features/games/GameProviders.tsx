@@ -1,41 +1,46 @@
 "use client";
 
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-const gameProviders = [
-  {
-    title: "Pocket Games Soft",
-    provider: "PG",
-    image: "/img-gameprovider/1.webp",
-  },
-  {
-    title: "Joker",
-    provider: "Joker",
-    image: "/img-gameprovider/2.webp",
-  },
-  {
-    title: "JILI",
-    provider: "JILI",
-    image: "/img-gameprovider/3.webp",
-  },
-  {
-    title: "Pragmatic Play",
-    provider: "Pragmatic Play",
-    image: "/img-gameprovider/4.webp",
-  },
-];
+
 
 const GameProviders: React.FC = () => {
+
+  const { t } = useTranslation();
+
+  const gameProviders = [
+    {
+      title: t("gameProviders.providers.pg.name"),
+      provider: t("gameProviders.providers.pg.description"),
+      image: "/img-gameprovider/1.webp",
+    },
+    {
+      title: t("gameProviders.providers.joker.name"),
+      provider: t("gameProviders.providers.joker.description"),
+      image: "/img-gameprovider/2.webp",
+    },
+    {
+      title: t("gameProviders.providers.jili.name"),
+      provider: t("gameProviders.providers.jili.description"),
+      image: "/img-gameprovider/3.webp",
+    },
+    {
+      title: t("gameProviders.providers.pragmaticPlay.name"),
+      provider: t("gameProviders.providers.pragmaticPlay.description"),
+      image: "/img-gameprovider/4.webp",
+    },
+  ];
   return (
     <section className="pt-4">
       {/* Header */}
       <div className="flex justify-between items-center mb-6 px-4">
         <div className="flex items-center space-x-2">
           <span className="text-yellow-400 text-2xl">📚</span>
-          <h2 className="text-white text-2xl font-bold">Game Providers</h2>
+          <h2 className="text-white text-2xl font-bold"> { t("gameProviders.title") } </h2>
         </div>
         <button className="flex items-center space-x-2 px-5 py-2 text-sm font-medium bg-transparent border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition">
-          <span>See All</span>
+          <span>{ t("gameProviders.seeAll") }</span>
           <span>➔</span>
         </button>
       </div>
@@ -63,7 +68,7 @@ const GameProviders: React.FC = () => {
               </div>
               <button className="px-5 py-2 w-24 text-sm font-medium text-white bg-yellow-500 rounded-full hover:bg-yellow-400 flex items-center space-x-2 shadow-md">
                 <span className="text-lg">🎮</span>
-                <span>Play</span>
+                <span> { t("gameProviders.providers.pragmaticPlay.play") } </span>
               </button>
             </div>
           </div>

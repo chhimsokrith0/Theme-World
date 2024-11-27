@@ -1,0 +1,191 @@
+{
+    "welcome": "ຍິນດີຕ້ອນຮັບສູ່ເວັບໄຊຂອງພວກເຮົາ",
+    "languageSwitch": "ປ່ຽນພາສາ",
+    "slidebar": {
+        "home": "ໜ້າຫຼັກ",
+        "slots": "ສະລັອດ",
+        "liveCasino": "ຄາສິໂນສົດ",
+        "privileges": "ສິດພິເສດ",
+        "quests": "ພາລະກິດ",
+        "reward": "ລາງວັນ",
+        "promo": "ໂປຣໂມ",
+        "levels": "ເລຍເວລ",
+        "referral": "ອ້າງອີງ",
+        "providers": "ຜູ້ໃຫ້ບໍລິການ",
+        "rtpSlots": "RTP ສະລັອດ",
+        "sports": "ກິລາ",
+        "fishing": "ຕົກປາ",
+        "virtual": "ເສັງຂອງມະນຸດ",
+        "languageOption": "ທາງເລືອກພາສາ",
+        "contactSocialMedia": "ຕິດຕໍ່ ແລະ ສື່ສັງຄົມ"
+    },
+    "navbar": {
+        "demo": "ເດໂມ",
+        "allGames": "ເກມທັງຫມົດ",
+        "popularGames": "ເກມຍອດນິຍົມ",
+        "newGames": "ເກມໃຫມ່",
+        "cashDrop": "ສະຫຼາກເງິນ",
+        "jackpots": "ແຈັກພອດ",
+        "megaways": "ເມກາເວຍ",
+        "tableGames": "ເກມໂຕະ",
+        "providers": "ຜູ້ໃຫ້ບໍລິການ"
+    },
+    "popularGames": {
+        "title": "ເກມຍອດນິຍົມ",
+        "seeAll": "ເບິ່ງທັງໝົດ",
+        "games": {
+            "jewelMania": "ເພັດແມນີຍາ",
+            "hotFruitsOnFire": "ຜົມໄມ້ຮ້ອນໃນໄຟ",
+            "barsAndBells": "#ບາ ແລະ ກະດິງ",
+            "reelReelHot": "ຣີວຮ້ອນຮ້ອນ",
+            "spiritOfTheLake": "ຈິດວິນຂອງທະເລ",
+            "twinWinsMystery": "ຄວາມລັບແຫ່ງຄວາມຊະນະຄູ່"
+        },
+        "provider": "Mancala"
+    },
+    "newGames": {
+        "title": "ເກມໃຫມ່",
+        "seeAll": "ເບິ່ງທັງໝົດ",
+        "games": {
+            "spiritOfTheLake": "ຈິດວິນຂອງທະເລ",
+            "twinWinsMystery": "ຄວາມລັບແຫ່ງຄວາມຊະນະຄູ່"
+        },
+        "provider": "Mancala"
+    },
+    "promotions": {
+        "title": "ໂປຣໂມຊັນ",
+        "seeAll": "ເບິ່ງທັງໝົດ"
+    },
+    "liveCasino": {
+        "title": "ຄາສິໂນສົດ",
+        "seeAll": "ເບິ່ງທັງໝົດ",
+        "games": {
+            "pragmaticLive": "ຄາສິໂນສົດ Pragmatic",
+            "baccaratC08": "ບາຄາຣາດ C08",
+            "baccarat": "ບາຄາຣາດ",
+            "dreamGaming": "DreamGaming",
+            "topGamesLobby": "ໂລບິ້ ເກມສ໌ທີ່ດີທີ່ສຸດ",
+            "liveCasino": "ຄາສິໂນສົດ"
+        },
+        "providers": {
+            "pragmaticPlay": "PragmaticPlay",
+            "sa": "SA",
+            "aeSexy": "AE Sexy",
+            "dreamGaming": "DreamGaming",
+            "evolutionGaming": "Evolution Gaming",
+            "weGaming": "We Gaming"
+        }
+    },
+    "gameProviders": {
+        "title": "ຜູ້ໃຫ້ບໍລິການເກມ",
+        "seeAll": "ເບິ່ງທັງໝົດ",
+        "providers": {
+            "pg": {
+                "name": "PG",
+                "description": "Pocket Games Soft",
+                "play": "ຫຼິ້ນ"
+            },
+            "joker": {
+                "name": "Joker",
+                "description": "Joker",
+                "play": "ຫຼິ້ນ"
+            },
+            "jili": {
+                "name": "JILI",
+                "description": "JILI",
+                "play": "ຫຼິ້ນ"
+            },
+            "pragmaticPlay": {
+                "name": "Pragmatic Play",
+                "description": "Pragmatic Play",
+                "play": "ຫຼິ້ນ"
+            }
+        }
+    },
+    "allGames": {
+        "title": "ເກມທັງໝົດ",
+        "seeAll": "ເບິ່ງທັງໝົດ",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "Ninja Raccoon Frenzy",
+                "provider": "PGSoft"
+            },
+            "treasuresOfAztec": {
+                "name": "Treasure of Aztec",
+                "provider": "PGSoft"
+            },
+            "mahjongWays2": {
+                "name": "Mahjong Ways 2",
+                "provider": "PGSoft"
+            },
+            "luckyNeko": {
+                "name": "Lucky Neko",
+                "provider": "PGSoft"
+            },
+            "mahjongWays": {
+                "name": "Mahjong Ways",
+                "provider": "PGSoft"
+            },
+            "wildBountyShowdown": {
+                "name": "Wild Bounty Showdown",
+                "provider": "PGSoft"
+            },
+            "waysOfTheQilin": {
+                "name": "Way of Qilin",
+                "provider": "PGSoft"
+            },
+            "wildBandito": {
+                "name": "Wild Bandito",
+                "provider": "PGSoft"
+            },
+            "fortuneRabbit": {
+                "name": "Fortune Rabbit",
+                "provider": "PGSoft"
+            },
+            "caishenWins": {
+                "name": "Caishen Wins",
+                "provider": "PGSoft"
+            },
+            "fortuneOx": {
+                "name": "Fortune Ox",
+                "provider": "PGSoft"
+            },
+            "ganeshaFortune": {
+                "name": "Ganesha Fortune",
+                "provider": "PGSoft"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "ປະເພດເກມ",
+        "categories": {
+            "demo": "ເດໂມ",
+            "newGames": "ເກມໃຫມ່",
+            "popular": "ຍອດນິຍົມ",
+            "cashDrops": "ສະຫຼາກເງິນ",
+            "jackpots": "ແຈັກພອດ",
+            "megaways": "ເມກາເວຍ",
+            "tableGames": "ເກມໂຕະ",
+            "allGames": "ເກມທັງໝົດ"
+        },
+        "liveCasino": "ຄາສິໂນສົດ",
+        "allLiveCasino": "ຄາສິໂນທັງໝົດ",
+        "specials": {
+            "quests": "ພາລະກິດ",
+            "reward": "ລາງວັນ",
+            "referral": "ອ້າງອີງ",
+            "level": "ເລຍເວລ"
+        },
+        "information": {
+            "termsAndConditions": "ເງື່ອນໄຂ",
+            "privacyPolicy": "ນະໂຍບາຍຄວາມສະໜຸກ",
+            "cookiesPolicy": "ຄຸກກີ້"
+        },
+        "followUs": "ຕິດຕໍ່ເຮົາ",
+        "poweredBy": "ຈັດທຳໂດຍ RithCT"
+    },
+    "header": {
+        "signUp": "ສ້າງບັນຊີ",
+        "signIn": "ເຂົ້າສູ່ລະບົບ"
+    }
+}

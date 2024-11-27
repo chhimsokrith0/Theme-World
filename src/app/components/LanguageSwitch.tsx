@@ -1,50 +1,53 @@
 "use client";
 
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const languageOptions = [
-  { id: 1, name: "ENG", flag: "/icon-us.png", url: "/en" },
-  { id: 2, name: "Chinese", flag: "/language/chinese.png", url: "/chinese" },
-  { id: 3, name: "KR", flag: "/language/kh.jpg", url: "/kh" },
-  { id: 4, name: "TH", flag: "/icon-th.png", url: "/th" },
-  { id: 5, name: "Indonesian", flag: "/language/indo.png", url: "/indonesian" },
-  { id: 6, name: "Malay", flag: "/language/malay.svg", url: "/malay" },
-  { id: 7, name: "Singapore", flag: "/language/singapore.png", url: "/singapore" },
-  { id: 8, name: "Vietnamese", flag: "/language/vietnamese.jpg", url: "/vietnamese" },
-  { id: 9, name: "Philippines", flag: "/language/philippines.png", url: "/philippines" },
-  { id: 10, name: "Myammar", flag: "/language/myammar.webp", url: "/myammar" },
-  { id: 11, name: "Lao", flag: "/language/lao.png", url: "/lao" },
-  { id: 12, name: "Hindi", flag: "/language/hindi.webp", url: "/hindi" },
-  { id: 13, name: "Urdu", flag: "/language/urdu.jpg", url: "/urdu" },
-  { id: 14, name: "Bengali", flag: "/language/bengali.png", url: "/bengali" },
-  { id: 15, name: "Taiwan", flag: "/language/Taiwan.webp", url: "/taiwan" },
-  { id: 16, name: "Hong Kong", flag: "/language/hongkong.png", url: "/hongkong" },
-  { id: 17, name: "Korea", flag: "/language/korea.webp", url: "/korea" },
-  { id: 18, name: "Portugal", flag: "/language/portugal.png", url: "/portugal" },
-  { id: 19, name: "Australia", flag: "/language/australia.webp", url: "/australia" },
-  { id: 20, name: "Canada", flag: "/language/canada.webp", url: "/canada" },
+  { id: 1, name: "ENG", flag: "/icon-us.png", code: "en" },
+  { id: 2, name: "Chinese", flag: "/language/chinese.png", code: "zh" },
+  { id: 3, name: "KH", flag: "/language/kh.jpg", code: "kh" },
+  { id: 4, name: "TH", flag: "/icon-th.png", code: "th" },
+  { id: 5, name: "Indonesian", flag: "/language/indo.png", code: "id" },
+  { id: 6, name: "Malay", flag: "/language/malay.svg", code: "ms" },
+  { id: 7, name: "Singapore", flag: "/language/singapore.png", code: "sg" },
+  { id: 8, name: "Vietnamese", flag: "/language/vietnamese.jpg", code: "vi" },
+  { id: 9, name: "Philippines", flag: "/language/philippines.png", code: "ph" },
+  { id: 10, name: "Myanmar", flag: "/language/myammar.webp", code: "mm" },
+  { id: 11, name: "Lao", flag: "/language/lao.png", code: "lo" },
+  { id: 12, name: "Hindi", flag: "/language/hindi.webp", code: "hi" },
+  { id: 13, name: "Urdu", flag: "/language/urdu.jpg", code: "ur" },
+  { id: 14, name: "Bengali", flag: "/language/bengali.png", code: "bn" },
+  { id: 15, name: "Taiwan", flag: "/language/Taiwan.webp", code: "tw" },
+  { id: 16, name: "Hong Kong", flag: "/language/hongkong.png", code: "hk" },
+  { id: 17, name: "Korea", flag: "/language/korea.webp", code: "ko" },
+  { id: 18, name: "Portugal", flag: "/language/portugal.png", code: "pt" },
+  { id: 19, name: "Australia", flag: "/language/australia.webp", code: "au" },
+  { id: 20, name: "Canada", flag: "/language/canada.webp", code: "ca" },
 ];
 
 const LanguageSwitch: React.FC = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const router = useRouter(); // Move useRouter outside of conditional checks.
+  const { i18n } = useTranslation(); // Access i18n instance
 
-  const changeLanguage = (url: string) => {
+  const changeLanguage = (langCode: string) => {
     setIsDropdownOpen(false); // Close dropdown
-    router.push(url); // Navigate to the selected language URL
+    i18n.changeLanguage(langCode); // Update the language using i18next
   };
 
   return (
     <div className="relative">
       {/* Toggle Button */}
       <div
-        className="flex items-center space-x-2 bg-gray-800 mr-10 px-4 py-2 rounded-full cursor-pointer hover:bg-gray-700 transition"
+        className="flex items-center space-x-2 bg-gray-800 px-4 py-2 rounded-full cursor-pointer hover:bg-gray-700 transition"
         onClick={() => setIsDropdownOpen((prev) => !prev)}
       >
         <Image
-          src={languageOptions[0].flag}
+          src={
+            languageOptions.find((lang) => lang.code === i18n.language)?.flag ||
+            languageOptions[0].flag
+          }
           alt="Current language flag"
           width={20}
           height={20}
@@ -68,12 +71,12 @@ const LanguageSwitch: React.FC = () => {
 
       {/* Dropdown Menu */}
       {isDropdownOpen && (
-        <div className="absolute bg-gray-900 text-white mt-2 rounded-lg shadow-lg w-40 py-2 z-50 overflow-auto max-h-96">
+        <div className="absolute bg-gray-900 text-white mt-2 rounded-lg shadow-lg w-56 py-2 z-50 overflow-auto max-h-96">
           {languageOptions.map((lang) => (
             <div
               key={lang.id}
               className="flex items-center px-4 py-2 hover:bg-gray-700 cursor-pointer rounded-md transition"
-              onClick={() => changeLanguage(lang.url)}
+              onClick={() => changeLanguage(lang.code)}
             >
               <Image
                 src={lang.flag}

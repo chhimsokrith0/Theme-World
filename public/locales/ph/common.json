@@ -1,117 +1,117 @@
 {
-    "welcome": "Welcome to our website",
-    "languageSwitch": "Change Language",
+    "welcome": "Maligayang pagdating sa aming website",
+    "languageSwitch": "Palitan ang Wika",
     "slidebar": {
-        "home": "Home",
-        "slots": "Slots",
-        "liveCasino": "Live Casino",
-        "privileges": "Privileges",
-        "quests": "Quests",
-        "reward": "Reward",
+        "home": "Tahanan",
+        "slots": "Mga Slot",
+        "liveCasino": "Live na Casino",
+        "privileges": "Mga Pribilehiyo",
+        "quests": "Mga Misyon",
+        "reward": "Gantimpala",
         "promo": "Promo",
-        "levels": "Levels",
-        "referral": "Referral",
-        "providers": "Providers",
+        "levels": "Mga Antas",
+        "referral": "Reperal",
+        "providers": "Mga Nagbibigay",
         "rtpSlots": "RTP Slots",
-        "sports": "Sports",
-        "fishing": "Fishing",
+        "sports": "Palakasan",
+        "fishing": "Pangingisda",
         "virtual": "Virtual",
-        "languageOption": "Language Option",
-        "contactSocialMedia": "Contact & Social Media"
+        "languageOption": "Pagpipilian ng Wika",
+        "contactSocialMedia": "Makipag-ugnayan & Social Media"
     },
     "navbar": {
         "demo": "Demo",
-        "allGames": "All Games",
-        "popularGames": "Popular Games",
-        "newGames": "New Games",
+        "allGames": "Lahat ng Laro",
+        "popularGames": "Mga Sikat na Laro",
+        "newGames": "Mga Bagong Laro",
         "cashDrop": "Cash Drop",
-        "jackpots": "Jackpots",
+        "jackpots": "Mga Jackpot",
         "megaways": "Megaways",
-        "tableGames": "Table Games",
-        "providers": "Providers"
+        "tableGames": "Mga Larong Pangsugal",
+        "providers": "Mga Nagbibigay"
     },
     "popularGames": {
-        "title": "Popular Games",
-        "seeAll": "See All",
+        "title": "Mga Sikat na Laro",
+        "seeAll": "Tingnan Lahat",
         "games": {
             "jewelMania": "Jewel Mania",
-            "hotFruitsOnFire": "Hot Fruits on Fire",
+            "hotFruitsOnFire": "Mainit na Prutas",
             "barsAndBells": "#BarsAndBells",
             "reelReelHot": "Reel Reel Hot",
-            "spiritOfTheLake": "Spirit of the Lake",
-            "twinWinsMystery": "The Twin Wins Mystery"
+            "spiritOfTheLake": "Espiritu ng Lawa",
+            "twinWinsMystery": "Ang Misteryo ng Twin Wins"
         },
         "provider": "Mancala"
     },
     "newGames": {
-        "title": "New Games",
-        "seeAll": "See All",
+        "title": "Mga Bagong Laro",
+        "seeAll": "Tingnan Lahat",
         "games": {
-            "spiritOfTheLake": "Spirit of the Lake",
-            "twinWinsMystery": "The Twin Wins Mystery"
+            "spiritOfTheLake": "Espiritu ng Lawa",
+            "twinWinsMystery": "Ang Misteryo ng Twin Wins"
         },
         "provider": "Mancala"
     },
     "promotions": {
-        "title": "Promotions",
-        "seeAll": "See All"
+        "title": "Mga Promosyon",
+        "seeAll": "Tingnan Lahat"
     },
     "liveCasino": {
-        "title": "Live Casino",
-        "seeAll": "See All",
+        "title": "Live na Casino",
+        "seeAll": "Tingnan Lahat",
         "games": {
             "pragmaticLive": "Pragmatic Live",
             "baccaratC08": "Baccarat C08",
             "baccarat": "Baccarat",
-            "dreamGaming": "DreamGaming",
-            "topGamesLobby": "Top Games Lobby",
-            "liveCasino": "Live Casino"
+            "dreamGaming": "Dream Gaming",
+            "topGamesLobby": "Pinakamataas na Laro",
+            "liveCasino": "Live na Casino"
         },
         "providers": {
-            "pragmaticPlay": "PragmaticPlay",
+            "pragmaticPlay": "Pragmatic Play",
             "sa": "SA",
-            "aeSexy": "Ae Sexy",
-            "dreamGaming": "DreamGaming",
+            "aeSexy": "AE Sexy",
+            "dreamGaming": "Dream Gaming",
             "evolutionGaming": "Evolution Gaming",
             "weGaming": "We Gaming"
         }
     },
     "gameProviders": {
-        "title": "Game Providers",
-        "seeAll": "See All",
+        "title": "Mga Nagbibigay ng Laro",
+        "seeAll": "Tingnan Lahat",
         "providers": {
             "pg": {
                 "name": "PG",
                 "description": "Pocket Games Soft",
-                "play": "Play"
+                "play": "Maglaro"
             },
             "joker": {
                 "name": "Joker",
                 "description": "Joker",
-                "play": "Play"
+                "play": "Maglaro"
             },
             "jili": {
                 "name": "JILI",
                 "description": "JILI",
-                "play": "Play"
+                "play": "Maglaro"
             },
             "pragmaticPlay": {
                 "name": "Pragmatic Play",
                 "description": "Pragmatic Play",
-                "play": "Play"
+                "play": "Maglaro"
             }
         }
     },
     "allGames": {
-        "title": "All Games",
-        "seeAll": "See All",
+        "title": "Lahat ng Laro",
+        "seeAll": "Tingnan Lahat",
         "games": {
             "ninjaRaccoonFrenzy": {
                 "name": "Ninja Raccoon Frenzy",
                 "provider": "PGSoft"
             },
             "treasuresOfAztec": {
-                "name": "Treasures of Aztec",
+                "name": "Mga Kayamanan ng Aztec",
                 "provider": "PGSoft"
             },
             "mahjongWays2": {
@@ -157,35 +157,35 @@
         }
     },
     "footer": {
-        "gameCategory": "Game Category",
+        "gameCategory": "Kategorya ng Laro",
         "categories": {
             "demo": "Demo",
-            "newGames": "New Games",
+            "newGames": "Mga Bagong Laro",
             "popular": "Popular",
             "cashDrops": "Cash Drops",
-            "jackpots": "Jackpots",
+            "jackpots": "Mga Jackpot",
             "megaways": "Megaways",
-            "tableGames": "Table Games",
-            "allGames": "All Games"
+            "tableGames": "Mga Larong Pangsugal",
+            "allGames": "Lahat ng Laro"
         },
-        "liveCasino": "Live Casino",
-        "allLiveCasino": "All Live Casino",
+        "liveCasino": "Live na Casino",
+        "allLiveCasino": "Lahat ng Live na Casino",
         "specials": {
-            "quests": "Quests",
-            "reward": "Reward",
-            "referral": "Referral",
-            "level": "Level"
+            "quests": "Mga Misyon",
+            "reward": "Gantimpala",
+            "referral": "Reperal",
+            "level": "Antas"
         },
         "information": {
-            "termsAndConditions": "Terms and Conditions",
-            "privacyPolicy": "Privacy Policy",
-            "cookiesPolicy": "Cookies Policy"
+            "termsAndConditions": "Mga Tuntunin at Kundisyon",
+            "privacyPolicy": "Patakaran sa Privacy",
+            "cookiesPolicy": "Patakaran sa Cookies"
         },
-        "followUs": "Follow us",
-        "poweredBy": "Powered By Rith CT"
+        "followUs": "Sundan kami",
+        "poweredBy": "Pinapatakbo ni Rith CT"
     },
     "header": {
-        "signUp": "Sign Up",
-        "signIn": "Sign In"
+        "signUp": "Mag-sign Up",
+        "signIn": "Mag-sign In"
     }
 }

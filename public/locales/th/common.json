@@ -1,4 +1,191 @@
 {
     "welcome": "ยินดีต้อนรับสู่เว็บไซต์ของเรา",
-    "languageSwitch": "เปลี่ยนภาษา"
+    "languageSwitch": "เปลี่ยนภาษา",
+    "slidebar": {
+        "home": "หน้าแรก",
+        "slots": "สล็อต",
+        "liveCasino": "คาสิโนสด",
+        "privileges": "สิทธิพิเศษ",
+        "quests": "ภารกิจ",
+        "reward": "รางวัล",
+        "promo": "โปรโมชั่น",
+        "levels": "ระดับ",
+        "referral": "การแนะนำ",
+        "providers": "ผู้ให้บริการ",
+        "rtpSlots": "RTP สล็อต",
+        "sports": "กีฬา",
+        "fishing": "ตกปลา",
+        "virtual": "เสมือนจริง",
+        "languageOption": "ตัวเลือกภาษา",
+        "contactSocialMedia": "ติดต่อ & โซเชียลมีเดีย"
+    },
+    "navbar": {
+        "demo": "เดโม่",
+        "allGames": "เกมทั้งหมด",
+        "popularGames": "เกมยอดนิยม",
+        "newGames": "เกมใหม่",
+        "cashDrop": "รางวัลเงินสด",
+        "jackpots": "แจ็คพอต",
+        "megaways": "เมก้าเวย์",
+        "tableGames": "เกมโต๊ะ",
+        "providers": "ผู้ให้บริการ"
+    },
+    "popularGames": {
+        "title": "เกมยอดนิยม",
+        "seeAll": "ดูทั้งหมด",
+        "games": {
+            "jewelMania": "Jewel Mania",
+            "hotFruitsOnFire": "Hot Fruits on Fire",
+            "barsAndBells": "#BarsAndBells",
+            "reelReelHot": "Reel Reel Hot",
+            "spiritOfTheLake": "Spirit of the Lake",
+            "twinWinsMystery": "The Twin Wins Mystery"
+        },
+        "provider": "Mancala"
+    },
+    "newGames": {
+        "title": "เกมใหม่",
+        "seeAll": "ดูทั้งหมด",
+        "games": {
+            "spiritOfTheLake": "Spirit of the Lake",
+            "twinWinsMystery": "The Twin Wins Mystery"
+        },
+        "provider": "Mancala"
+    },
+    "promotions": {
+        "title": "โปรโมชั่น",
+        "seeAll": "ดูทั้งหมด"
+    },
+    "liveCasino": {
+        "title": "คาสิโนสด",
+        "seeAll": "ดูทั้งหมด",
+        "games": {
+            "pragmaticLive": "Pragmatic Live",
+            "baccaratC08": "บาคาร่า C08",
+            "baccarat": "บาคาร่า",
+            "dreamGaming": "ดรีมเกมมิ่ง",
+            "topGamesLobby": "ล็อบบี้เกมยอดนิยม",
+            "liveCasino": "คาสิโนสด"
+        },
+        "providers": {
+            "pragmaticPlay": "Pragmatic Play",
+            "sa": "SA",
+            "aeSexy": "AE Sexy",
+            "dreamGaming": "ดรีมเกมมิ่ง",
+            "evolutionGaming": "Evolution Gaming",
+            "weGaming": "We Gaming"
+        }
+    },
+    "gameProviders": {
+        "title": "ผู้ให้บริการเกม",
+        "seeAll": "ดูทั้งหมด",
+        "providers": {
+            "pg": {
+                "name": "PG",
+                "description": "Pocket Games Soft",
+                "play": "เล่น"
+            },
+            "joker": {
+                "name": "Joker",
+                "description": "Joker",
+                "play": "เล่น"
+            },
+            "jili": {
+                "name": "JILI",
+                "description": "JILI",
+                "play": "เล่น"
+            },
+            "pragmaticPlay": {
+                "name": "Pragmatic Play",
+                "description": "Pragmatic Play",
+                "play": "เล่น"
+            }
+        }
+    },
+    "allGames": {
+        "title": "เกมทั้งหมด",
+        "seeAll": "ดูทั้งหมด",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "Ninja Raccoon Frenzy",
+                "provider": "PGSoft"
+            },
+            "treasuresOfAztec": {
+                "name": "Treasures of Aztec",
+                "provider": "PGSoft"
+            },
+            "mahjongWays2": {
+                "name": "Mahjong Ways 2",
+                "provider": "PGSoft"
+            },
+            "luckyNeko": {
+                "name": "Lucky Neko",
+                "provider": "PGSoft"
+            },
+            "mahjongWays": {
+                "name": "Mahjong Ways",
+                "provider": "PGSoft"
+            },
+            "wildBountyShowdown": {
+                "name": "Wild Bounty Showdown",
+                "provider": "PGSoft"
+            },
+            "waysOfTheQilin": {
+                "name": "Ways of the Qilin",
+                "provider": "PGSoft"
+            },
+            "wildBandito": {
+                "name": "Wild Bandito",
+                "provider": "PGSoft"
+            },
+            "fortuneRabbit": {
+                "name": "Fortune Rabbit",
+                "provider": "PGSoft"
+            },
+            "caishenWins": {
+                "name": "Caishen Wins",
+                "provider": "PGSoft"
+            },
+            "fortuneOx": {
+                "name": "Fortune Ox",
+                "provider": "PGSoft"
+            },
+            "ganeshaFortune": {
+                "name": "Ganesha Fortune",
+                "provider": "PGSoft"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "หมวดหมู่เกม",
+        "categories": {
+            "demo": "เดโม่",
+            "newGames": "เกมใหม่",
+            "popular": "ยอดนิยม",
+            "cashDrops": "รางวัลเงินสด",
+            "jackpots": "แจ็คพอต",
+            "megaways": "เมก้าเวย์",
+            "tableGames": "เกมโต๊ะ",
+            "allGames": "เกมทั้งหมด"
+        },
+        "liveCasino": "คาสิโนสด",
+        "allLiveCasino": "คาสิโนสดทั้งหมด",
+        "specials": {
+            "quests": "ภารกิจ",
+            "reward": "รางวัล",
+            "referral": "การแนะนำ",
+            "level": "ระดับ"
+        },
+        "information": {
+            "termsAndConditions": "ข้อกำหนดและเงื่อนไข",
+            "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+            "cookiesPolicy": "นโยบายคุกกี้"
+        },
+        "followUs": "ติดตามเรา",
+        "poweredBy": "สนับสนุนโดย Rith CT"
+    },
+    "header": {
+        "signUp": "ลงทะเบียน",
+        "signIn": "เข้าสู่ระบบ"
+    }
 }

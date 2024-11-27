@@ -1,0 +1,191 @@
+{
+    "welcome": "歡迎訪問我們的網站",
+    "languageSwitch": "切換語言",
+    "slidebar": {
+        "home": "首頁",
+        "slots": "老虎機",
+        "liveCasino": "真人娛樂",
+        "privileges": "特權",
+        "quests": "任務",
+        "reward": "獎勵",
+        "promo": "促銷",
+        "levels": "等級",
+        "referral": "推薦",
+        "providers": "提供商",
+        "rtpSlots": "RTP 老虎機",
+        "sports": "體育",
+        "fishing": "捕魚",
+        "virtual": "虛擬",
+        "languageOption": "語言選項",
+        "contactSocialMedia": "聯絡與社交媒體"
+    },
+    "navbar": {
+        "demo": "演示",
+        "allGames": "所有遊戲",
+        "popularGames": "熱門遊戲",
+        "newGames": "新遊戲",
+        "cashDrop": "現金掉落",
+        "jackpots": "獎池",
+        "megaways": "超大玩法",
+        "tableGames": "桌面遊戲",
+        "providers": "提供商"
+    },
+    "popularGames": {
+        "title": "熱門遊戲",
+        "seeAll": "查看全部",
+        "games": {
+            "jewelMania": "寶石狂熱",
+            "hotFruitsOnFire": "熱火水果",
+            "barsAndBells": "#酒吧與鐘聲",
+            "reelReelHot": "滾滾熱",
+            "spiritOfTheLake": "湖泊之靈",
+            "twinWinsMystery": "雙子贏得神秘"
+        },
+        "provider": "Mancala"
+    },
+    "newGames": {
+        "title": "新遊戲",
+        "seeAll": "查看全部",
+        "games": {
+            "spiritOfTheLake": "湖泊之靈",
+            "twinWinsMystery": "雙子贏得神秘"
+        },
+        "provider": "Mancala"
+    },
+    "promotions": {
+        "title": "促銷活動",
+        "seeAll": "查看全部"
+    },
+    "liveCasino": {
+        "title": "真人娛樂",
+        "seeAll": "查看全部",
+        "games": {
+            "pragmaticLive": "Pragmatic 真人",
+            "baccaratC08": "百家樂 C08",
+            "baccarat": "百家樂",
+            "dreamGaming": "夢想遊戲",
+            "topGamesLobby": "熱門遊戲大廳",
+            "liveCasino": "真人娛樂"
+        },
+        "providers": {
+            "pragmaticPlay": "PragmaticPlay",
+            "sa": "SA",
+            "aeSexy": "AE 性感",
+            "dreamGaming": "夢想遊戲",
+            "evolutionGaming": "進化遊戲",
+            "weGaming": "We Gaming"
+        }
+    },
+    "gameProviders": {
+        "title": "遊戲提供商",
+        "seeAll": "查看全部",
+        "providers": {
+            "pg": {
+                "name": "PG",
+                "description": "口袋遊戲軟件",
+                "play": "遊玩"
+            },
+            "joker": {
+                "name": "Joker",
+                "description": "Joker",
+                "play": "遊玩"
+            },
+            "jili": {
+                "name": "JILI",
+                "description": "JILI",
+                "play": "遊玩"
+            },
+            "pragmaticPlay": {
+                "name": "Pragmatic Play",
+                "description": "Pragmatic Play",
+                "play": "遊玩"
+            }
+        }
+    },
+    "allGames": {
+        "title": "所有遊戲",
+        "seeAll": "查看全部",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "忍者浣熊狂熱",
+                "provider": "PGSoft"
+            },
+            "treasuresOfAztec": {
+                "name": "阿茲特克寶藏",
+                "provider": "PGSoft"
+            },
+            "mahjongWays2": {
+                "name": "麻將玩法 2",
+                "provider": "PGSoft"
+            },
+            "luckyNeko": {
+                "name": "幸運貓",
+                "provider": "PGSoft"
+            },
+            "mahjongWays": {
+                "name": "麻將玩法",
+                "provider": "PGSoft"
+            },
+            "wildBountyShowdown": {
+                "name": "狂野賞金對決",
+                "provider": "PGSoft"
+            },
+            "waysOfTheQilin": {
+                "name": "麒麟之路",
+                "provider": "PGSoft"
+            },
+            "wildBandito": {
+                "name": "狂野強盜",
+                "provider": "PGSoft"
+            },
+            "fortuneRabbit": {
+                "name": "幸運兔",
+                "provider": "PGSoft"
+            },
+            "caishenWins": {
+                "name": "財神贏",
+                "provider": "PGSoft"
+            },
+            "fortuneOx": {
+                "name": "幸運牛",
+                "provider": "PGSoft"
+            },
+            "ganeshaFortune": {
+                "name": "象神幸運",
+                "provider": "PGSoft"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "遊戲類別",
+        "categories": {
+            "demo": "演示",
+            "newGames": "新遊戲",
+            "popular": "熱門",
+            "cashDrops": "現金掉落",
+            "jackpots": "獎池",
+            "megaways": "超大玩法",
+            "tableGames": "桌面遊戲",
+            "allGames": "所有遊戲"
+        },
+        "liveCasino": "真人娛樂",
+        "allLiveCasino": "所有真人娛樂",
+        "specials": {
+            "quests": "任務",
+            "reward": "獎勵",
+            "referral": "推薦",
+            "level": "等級"
+        },
+        "information": {
+            "termsAndConditions": "條款和條件",
+            "privacyPolicy": "隱私政策",
+            "cookiesPolicy": "Cookie 政策"
+        },
+        "followUs": "關注我們",
+        "poweredBy": "技術支持 Rith CT"
+    },
+    "header": {
+        "signUp": "註冊",
+        "signIn": "登錄"
+    }
+}

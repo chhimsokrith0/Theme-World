@@ -11,6 +11,7 @@ import referralIcon from "@/app/assets/affiliate-marketing 1.svg";
 import Line from "@/app/assets/Line.png";
 import telegramIcon from "@/app/assets/telegram.png";
 import chatIcon from "@/app/assets/chat-icon.png";
+import { useTranslation } from "react-i18next";
 import {
   FaHome,
   FaDice,
@@ -23,32 +24,6 @@ import {
   FaChevronDown,
 } from "react-icons/fa";
 
-// Menu data for the sidebar
-const mainMenu = [
-  { id: 1, title: "Home", icon: <FaHome />, bgColor: "hover:bg-gray-800", link: "/" },
-  { id: 2, title: "Slots", icon: <FaDice />, bgColor: "hover:bg-gray-800", link: "/game_sidebar/slots" },
-  { id: 3, title: "Live Casino", icon: <FaGamepad />, bgColor: "hover:bg-gray-800", link: "/game_sidebar/live_casino" },
-];
-
-// Privileges data
-
-const privileges = [
-  { id: 1, title: "Quests", icon: questIcon.src, bgColor: "rgb(60, 33, 108)", link: "/quests" },
-  { id: 2, title: "Reward", icon: rewardIcon.src, bgColor: "rgb(36, 68, 38)", link: "/reward" },
-  { id: 3, title: "Promo", icon: promoIcon.src, bgColor: "rgb(108, 33, 88)", link: "/promo" },
-  { id: 4, title: "Levels", icon: levelsIcon.src, bgColor: "rgb(108, 33, 33)", link: "/levels" },
-  { id: 5, title: "Referral", icon: referralIcon.src, bgColor: "rgb(108, 88, 33)", isFullWidth: true, link: "/referral" },
-];
-
-// Additional menu data
-const additionalMenu = [
-  { id: 1, title: "Providers", icon: <FaCubes />, link: "/game_sidebar/GameProvidersDetail" },
-  { id: 2, title: "RTP Slots", icon: <FaChartBar />, link: "/game_sidebar/RtpSlots" },
-  { id: 3, title: "Sports", icon: <FaFutbol />, link: "/game_sidebar/Sport" },
-  { id: 4, title: "Fishing", icon: <FaFish />, link: "/game_sidebar/Fishing" },
-  { id: 5, title: "Virtual", icon: <FaGamepad />, link: "/game_sidebar/Virtual" },
-];
-
 
 const Sidebar: React.FC = () => {
   const [activeMenu, setActiveMenu] = useState<number | null>(null); // State to track active menu
@@ -56,6 +31,35 @@ const Sidebar: React.FC = () => {
   const handleMenuClick = (id: number) => {
     setActiveMenu(id); // Update the active menu state
   };
+
+
+  const { t } = useTranslation();
+
+  // Menu data for the sidebar
+  const mainMenu = [
+    { id: 1, title: t("slidebar.home"), icon: <FaHome />, bgColor: "hover:bg-gray-800", link: "/" },
+    { id: 2, title: t("slidebar.slots"), icon: <FaDice />, bgColor: "hover:bg-gray-800", link: "/game_sidebar/slots" },
+    { id: 3, title: t("slidebar.liveCasino"), icon: <FaGamepad />, bgColor: "hover:bg-gray-800", link: "/game_sidebar/live_casino" },
+  ];
+  // Privileges data
+
+  const privileges = [
+    { id: 1, title: t("slidebar.quests"), icon: questIcon.src, bgColor: "rgb(60, 33, 108)", link: "/quests" },
+    { id: 2, title: t("slidebar.reward"), icon: rewardIcon.src, bgColor: "rgb(36, 68, 38)", link: "/reward" },
+    { id: 3, title: t("slidebar.promo"), icon: promoIcon.src, bgColor: "rgb(108, 33, 88)", link: "/promo" },
+    { id: 4, title: t("slidebar.levels"), icon: levelsIcon.src, bgColor: "rgb(108, 33, 33)", link: "/levels" },
+    { id: 5, title: t("slidebar.referral"), icon: referralIcon.src, bgColor: "rgb(108, 88, 33)", isFullWidth: true, link: "/referral" },
+  ];
+
+  // Additional menu data
+  const additionalMenu = [
+    { id: 1, title: t("slidebar.providers"), icon: <FaCubes />, link: "/game_sidebar/GameProvidersDetail" },
+    { id: 2, title: t("slidebar.rtpSlots"), icon: <FaChartBar />, link: "/game_sidebar/RtpSlots" },
+    { id: 3, title: t("slidebar.sports"), icon: <FaFutbol />, link: "/game_sidebar/Sport" },
+    { id: 4, title: t("slidebar.fishing"), icon: <FaFish />, link: "/game_sidebar/Fishing" },
+    { id: 5, title: t("slidebar.virtual"), icon: <FaGamepad />, link: "/game_sidebar/Virtual" },
+  ];
+
 
   return (
     <div className="bg-gray-900 text-white w-64 h-[calc(100vh-64px)] px-4 py-6 fixed top-17 overflow-y-scroll scrollbar-hide z-[9999] shadow-md">
@@ -77,7 +81,7 @@ const Sidebar: React.FC = () => {
 
       {/* Privileges Section */}
       <div className="mt-6">
-        <h3 className="text-sm text-gray-400 font-semibold mb-4">Privileges</h3>
+        <h3 className="text-sm text-gray-400 font-semibold mb-4">{t("slidebar.providers")}</h3>
         <div className="grid grid-cols-2 gap-4">
           {privileges.map((item) => (
             <Link href={item.link} key={item.id} passHref>
@@ -119,7 +123,7 @@ const Sidebar: React.FC = () => {
 
       {/* Language Option */}
       <div className="mt-6">
-        <h3 className="text-sm text-gray-400 font-semibold mb-4">Language Option</h3>
+        <h3 className="text-sm text-gray-400 font-semibold mb-4">{t("slidebar.languageOption")}</h3>
         <div className="flex items-center space-x-3 py-2 px-4 bg-gray-800 rounded-lg cursor-pointer">
           <FaLanguage className="text-gray-400 text-lg" />
           <span>English</span>
@@ -135,7 +139,7 @@ const Sidebar: React.FC = () => {
 
       {/* Contact & Social Media Section */}
       <div className="mt-6 border-t border-gray-700 pt-4">
-        <h3 className="text-sm text-gray-400 font-semibold mb-4">Contact & Social Media</h3>
+        <h3 className="text-sm text-gray-400 font-semibold mb-4">{t("slidebar.contactSocialMedia")}</h3>
         <div className="flex items-center space-x-4">
           <a
             href="https://line.me"

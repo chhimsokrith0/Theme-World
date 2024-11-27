@@ -1,37 +1,41 @@
 "use client";
 
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-const newGames = [
-    {
-        title: "Spirit of the Lake",
-        provider: "Mancala",
-        image: "/img-newgames/1.png",
-    },
-    {
-        title: "The Twin Wins Mystery",
-        provider: "Mancala",
-        image: "/img-newgames/2.png",
-    },
-    {
-        title: "Spirit of the Lake",
-        provider: "Mancala",
-        image: "/img-newgames/1.png",
-    },
-
-];
 
 const NewGames: React.FC = () => {
+
+    const { t } = useTranslation();
+
+    const newGames = [
+        {
+            title: t("newGames.games.spiritOfTheLake"),
+            provider: t("newGames.provider"),
+            image: "/img-newgames/1.png",
+        },
+        {
+            title: t("newGames.games.twinWinsMystery"),
+            provider: t("newGames.provider"),
+            image: "/img-newgames/2.png",
+        },
+        {
+            title: t("newGames.games.spiritOfTheLake"),
+            provider: t("newGames.provider"),
+            image: "/img-newgames/1.png",
+        },
+    
+    ];
     return (
         <section className="pt-4">
             {/* Header */}
             <div className="flex justify-between items-center mb-6 px-4">
                 <div className="flex items-center space-x-2">
                     <span className="text-green-400 text-xl">⚡</span>
-                    <h2 className="text-white text-2xl font-bold">New Games</h2>
+                    <h2 className="text-white text-2xl font-bold"> { t("newGames.title") } </h2>
                 </div>
                 <button className="flex items-center space-x-2 px-5 py-2 text-sm font-medium bg-transparent border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition">
-                    <span>See All</span>
+                    <span>{ t("newGames.seeAll") }</span>
                     <span>➔</span>
                 </button>
             </div>

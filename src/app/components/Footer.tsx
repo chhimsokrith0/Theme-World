@@ -2,8 +2,10 @@
 
 import React, { useState } from "react";
 import { FaTelegramPlane, FaLine, FaCircle, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
   // State for collapsible sections (for mobile)
   const [isGameCategoryOpen, setIsGameCategoryOpen] = useState(false);
   const [isLiveCasinoOpen, setIsLiveCasinoOpen] = useState(false);
@@ -20,7 +22,7 @@ const Footer: React.FC = () => {
             className="flex justify-between items-center text-yellow-400 text-lg font-bold mb-2 cursor-pointer"
             onClick={() => setIsGameCategoryOpen(!isGameCategoryOpen)}
           >
-            Game Category
+            { t("footer.gameCategory") }
             <span>
               {isGameCategoryOpen ? <FaChevronUp /> : <FaChevronDown />}
             </span>
@@ -125,24 +127,24 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-5 gap-8 mb-6">
           {/* Game Category */}
           <div>
-            <h3 className="text-yellow-400 text-lg font-bold mb-4">Game Category</h3>
+            <h3 className="text-yellow-400 text-lg font-bold mb-4">{ t("footer.gameCategory") }</h3>
             <ul className="space-y-2 text-sm">
-              <li>Demo</li>
-              <li>New Games</li>
-              <li>Popular</li>
-              <li>Cash Drops</li>
-              <li>Jackpots</li>
-              <li>Megaways</li>
-              <li>Table Games</li>
-              <li>All Games</li>
+              <li>{ t("footer.categories.demo") }</li>
+              <li>{ t("footer.categories.newGames") }</li>
+              <li>{ t("footer.categories.popular") }</li>
+              <li>{ t("footer.categories.cashDrops") }</li>
+              <li>{ t("footer.categories.jackpots") }</li>
+              <li>{ t("footer.categories.megaways") }</li>
+              <li>{ t("footer.categories.tableGames") }</li>
+              <li>{ t("footer.categories.allGames") }</li>
             </ul>
           </div>
 
           {/* Live Casino */}
           <div>
-            <h3 className="text-yellow-400 text-lg font-bold mb-4">Live Casino</h3>
+            <h3 className="text-yellow-400 text-lg font-bold mb-4"> {t("footer.liveCasino")} </h3>
             <ul className="space-y-2 text-sm">
-              <li>All Live Casino</li>
+              <li>{t("footer.allLiveCasino")}</li>
             </ul>
           </div>
 
@@ -150,10 +152,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-yellow-400 text-lg font-bold mb-4">Specials</h3>
             <ul className="space-y-2 text-sm">
-              <li>Quests</li>
-              <li>Reward</li>
-              <li>Referral</li>
-              <li>Level</li>
+              <li>{t("footer.specials.quests")}</li>
+              <li>{t("footer.specials.reward")}</li>
+              <li>{t("footer.specials.referral")}</li>
+              <li>{t("footer.specials.level")}</li>
             </ul>
           </div>
 
@@ -161,15 +163,15 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-yellow-400 text-lg font-bold mb-4">Information</h3>
             <ul className="space-y-2 text-sm">
-              <li>Terms and Conditions</li>
-              <li>Privacy Policy</li>
-              <li>Cookies Policy</li>
+              <li>{t("footer.information.termsAndConditions")}</li>
+              <li>{t("footer.information.privacyPolicy")}</li>
+              <li>{t("footer.information.cookiesPolicy")}</li>
             </ul>
           </div>
 
           {/* Follow Us */}
           <div>
-            <h3 className="text-yellow-400 text-lg font-bold mb-4">Follow us</h3>
+            <h3 className="text-yellow-400 text-lg font-bold mb-4">{t("footer.followUs")}</h3>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-yellow-400">
                 <FaLine size={24} />
@@ -186,7 +188,8 @@ const Footer: React.FC = () => {
 
         {/* Footer Bottom */}
         <div className="border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
-          Powered By <span className="text-yellow-400 font-bold">Rith CT</span>
+          {/* Powered By <span className="text-yellow-400 font-bold">Rith CT</span> */}
+          {t("footer.poweredBy")}
         </div>
       </div>
     </footer>

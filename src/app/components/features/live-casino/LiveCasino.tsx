@@ -1,51 +1,54 @@
 "use client";
 
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-const liveCasinoGames = [
-    {
-        title: "Pragmatic Live",
-        provider: "PragmaticPlay",
-        image: "/img-live-casino/1.png",
-    },
-    {
-        title: "Baccarat C08",
-        provider: "SA",
-        image: "/img-live-casino/2.jpg",
-    },
-    {
-        title: "Baccarat",
-        provider: "Ae Sexy",
-        image: "/img-live-casino/3.jpg",
-    },
-    {
-        title: "DreamGaming",
-        provider: "DreamGaming",
-        image: "/img-live-casino/4.png",
-    },
-    {
-        title: "Top Games Lobby",
-        provider: "Evolution Gaming",
-        image: "/img-live-casino/5.png",
-    },
-    {
-        title: "Live Casino",
-        provider: "We Gaming",
-        image: "/img-live-casino/6.png",
-    },
-];
 
 const LiveCasino: React.FC = () => {
+
+    const { t } = useTranslation();
+    const liveCasinoGames = [
+        {
+            title: t("liveCasino.games.pragmaticLive"),
+            provider: t("liveCasino.providers.pragmaticPlay"),
+            image: "/img-live-casino/1.png",
+        },
+        {
+            title: t("liveCasino.games.baccaratC08"),
+            provider: t("liveCasino.providers.sa"),
+            image: "/img-live-casino/2.jpg",
+        },
+        {
+            title: t("liveCasino.games.baccarat"),
+            provider: t("liveCasino.providers.aeSexy"),
+            image: "/img-live-casino/3.jpg",
+        },
+        {
+            title: t("liveCasino.games.dreamGaming"),
+            provider: t("liveCasino.providers.dreamGaming"),
+            image: "/img-live-casino/4.png",
+        },
+        {
+            title: t("liveCasino.games.topGamesLobby"),
+            provider: t("liveCasino.providers.evolutionGaming"),
+            image: "/img-live-casino/5.png",
+        },
+        {
+            title: t("liveCasino.games.liveCasino"),
+            provider: t("liveCasino.providers.weGaming"),
+            image: "/img-live-casino/6.png",
+        },
+    ];
     return (
         <section className="pt-4">
             {/* Header */}
             <div className="flex justify-between items-center mb-6 px-4">
                 <div className="flex items-center space-x-2">
                     <span className="text-blue-400 text-xl">🎲</span>
-                    <h2 className="text-white text-xl font-bold">Live Casino</h2>
+                    <h2 className="text-white text-xl font-bold"> { t("liveCasino.title") } </h2>
                 </div>
                 <button className="flex items-center space-x-2 px-5 py-2 text-sm font-medium bg-transparent border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition">
-                    <span>See All</span>
+                    <span>{ t("liveCasino.seeAll") }</span>
                     <span>➔</span>
                 </button>
             </div>

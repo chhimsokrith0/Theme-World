@@ -1,33 +1,37 @@
 "use client";
 
 import React from "react";
-
-const games = [
-    { title: "Ninja Raccoon Frenzy", provider: "PGSoft", image: "/img-allgames/1.png" },
-    { title: "Treasures of Aztec", provider: "PGSoft", image: "/img-allgames/2.png" },
-    { title: "Mahjong Ways 2", provider: "PGSoft", image: "/img-allgames/3.png" },
-    { title: "Lucky Neko", provider: "PGSoft", image: "/img-allgames/4.png" },
-    { title: "Mahjong Ways", provider: "PGSoft", image: "/img-allgames/5.png" },
-    { title: "Wild Bounty Showdown", provider: "PGSoft", image: "/img-allgames/6.png" },
-    { title: "Ways of the Qilin", provider: "PGSoft", image: "/img-allgames/7.png" },
-    { title: "Wild Bandito", provider: "PGSoft", image: "/img-allgames/8.png" },
-    { title: "Fortune Rabbit", provider: "PGSoft", image: "/img-allgames/9.png" },
-    { title: "Caishen Wins", provider: "PGSoft", image: "/img-allgames/10.png" },
-    { title: "Fortune Ox", provider: "PGSoft", image: "/img-allgames/11.png" },
-    { title: "Ganesha Fortune", provider: "PGSoft", image: "/img-allgames/12.png" },
-];
+import { useTranslation } from "react-i18next";
 
 const AllGames: React.FC = () => {
+
+    const { t } = useTranslation();
+
+    const games = [
+        { title: t("allGames.games.ninjaRaccoonFrenzy.name"), provider: t("allGames.games.ninjaRaccoonFrenzy.provider"), image: "/img-allgames/1.png" },
+        { title: t("allGames.games.treasuresOfAztec.name"), provider: t("allGames.games.treasuresOfAztec.provider"), image: "/img-allgames/2.png" },
+        { title: t("allGames.games.mahjongWays2.name"), provider: t("allGames.games.mahjongWays2.provider"), image: "/img-allgames/3.png" },
+        { title: t("allGames.games.luckyNeko.name"), provider: t("allGames.games.luckyNeko.provider"), image: "/img-allgames/4.png" },
+        { title: t("allGames.games.mahjongWays.name"), provider: t("allGames.games.mahjongWays.provider"), image: "/img-allgames/5.png" },
+        { title: t("allGames.games.wildBountyShowdown.name"), provider: t("allGames.games.wildBountyShowdown.provider"), image: "/img-allgames/6.png" },
+        { title: t("allGames.games.waysOfTheQilin.name"), provider: t("allGames.games.waysOfTheQilin.provider"), image: "/img-allgames/7.png" },
+        { title: t("allGames.games.wildBandito.name"), provider: t("allGames.games.wildBandito.provider"), image: "/img-allgames/8.png" },
+        { title: t("allGames.games.fortuneRabbit.name"), provider: t("allGames.games.fortuneRabbit.provider"), image: "/img-allgames/9.png" },
+        { title: t("allGames.games.caishenWins.name"), provider: t("allGames.games.caishenWins.provider"), image: "/img-allgames/10.png" },
+        { title: t("allGames.games.fortuneOx.name"), provider: t("allGames.games.fortuneOx.provider"), image: "/img-allgames/11.png" },
+        { title: t("allGames.games.ganeshaFortune.name"), provider: t("allGames.games.ganeshaFortune.provider"), image: "/img-allgames/12.png" },
+    ];
+
     return (
         <section className="pt-4">
             {/* Header */}
             <div className="flex justify-between items-center mb-6 px-4">
                 <div className="flex items-center space-x-2">
                     <span className="text-pink-400 text-xl">🔲</span>
-                    <h2 className="text-white text-2xl font-bold">All Games</h2>
+                    <h2 className="text-white text-2xl font-bold"> { t("allGames.title") } </h2>
                 </div>
                 <button className="flex items-center space-x-2 px-5 py-2 text-sm font-medium bg-transparent border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition">
-                    <span>See All</span>
+                    <span>{ t("allGames.seeAll") }</span>
                     <span>➔</span>
                 </button>
             </div>

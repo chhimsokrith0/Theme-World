@@ -1,38 +1,38 @@
 {
-    "welcome": "Welcome to our website",
-    "languageSwitch": "Change Language",
+    "welcome": "Chào mừng đến với trang web của chúng tôi",
+    "languageSwitch": "Thay đổi ngôn ngữ",
     "slidebar": {
-        "home": "Home",
-        "slots": "Slots",
-        "liveCasino": "Live Casino",
-        "privileges": "Privileges",
-        "quests": "Quests",
-        "reward": "Reward",
-        "promo": "Promo",
-        "levels": "Levels",
-        "referral": "Referral",
-        "providers": "Providers",
-        "rtpSlots": "RTP Slots",
-        "sports": "Sports",
-        "fishing": "Fishing",
-        "virtual": "Virtual",
-        "languageOption": "Language Option",
-        "contactSocialMedia": "Contact & Social Media"
+        "home": "Trang chủ",
+        "slots": "Máy đánh bạc",
+        "liveCasino": "Sòng bạc trực tiếp",
+        "privileges": "Đặc quyền",
+        "quests": "Nhiệm vụ",
+        "reward": "Phần thưởng",
+        "promo": "Khuyến mãi",
+        "levels": "Cấp độ",
+        "referral": "Giới thiệu",
+        "providers": "Nhà cung cấp",
+        "rtpSlots": "Máy đánh bạc RTP",
+        "sports": "Thể thao",
+        "fishing": "Câu cá",
+        "virtual": "Ảo",
+        "languageOption": "Tùy chọn ngôn ngữ",
+        "contactSocialMedia": "Liên hệ và Mạng xã hội"
     },
     "navbar": {
-        "demo": "Demo",
-        "allGames": "All Games",
-        "popularGames": "Popular Games",
-        "newGames": "New Games",
-        "cashDrop": "Cash Drop",
-        "jackpots": "Jackpots",
+        "demo": "Bản thử nghiệm",
+        "allGames": "Tất cả trò chơi",
+        "popularGames": "Trò chơi phổ biến",
+        "newGames": "Trò chơi mới",
+        "cashDrop": "Tiền thưởng",
+        "jackpots": "Giải đặc biệt",
         "megaways": "Megaways",
-        "tableGames": "Table Games",
-        "providers": "Providers"
+        "tableGames": "Trò chơi trên bàn",
+        "providers": "Nhà cung cấp"
     },
     "popularGames": {
-        "title": "Popular Games",
-        "seeAll": "See All",
+        "title": "Trò chơi phổ biến",
+        "seeAll": "Xem tất cả",
         "games": {
             "jewelMania": "Jewel Mania",
             "hotFruitsOnFire": "Hot Fruits on Fire",
@@ -44,8 +44,8 @@
         "provider": "Mancala"
     },
     "newGames": {
-        "title": "New Games",
-        "seeAll": "See All",
+        "title": "Trò chơi mới",
+        "seeAll": "Xem tất cả",
         "games": {
             "spiritOfTheLake": "Spirit of the Lake",
             "twinWinsMystery": "The Twin Wins Mystery"
@@ -53,22 +53,22 @@
         "provider": "Mancala"
     },
     "promotions": {
-        "title": "Promotions",
-        "seeAll": "See All"
+        "title": "Khuyến mãi",
+        "seeAll": "Xem tất cả"
     },
     "liveCasino": {
-        "title": "Live Casino",
-        "seeAll": "See All",
+        "title": "Sòng bạc trực tiếp",
+        "seeAll": "Xem tất cả",
         "games": {
             "pragmaticLive": "Pragmatic Live",
             "baccaratC08": "Baccarat C08",
             "baccarat": "Baccarat",
             "dreamGaming": "DreamGaming",
-            "topGamesLobby": "Top Games Lobby",
-            "liveCasino": "Live Casino"
+            "topGamesLobby": "Sảnh trò chơi hàng đầu",
+            "liveCasino": "Sòng bạc trực tiếp"
         },
         "providers": {
-            "pragmaticPlay": "PragmaticPlay",
+            "pragmaticPlay": "Pragmatic Play",
             "sa": "SA",
             "aeSexy": "Ae Sexy",
             "dreamGaming": "DreamGaming",
@@ -77,34 +77,34 @@
         }
     },
     "gameProviders": {
-        "title": "Game Providers",
-        "seeAll": "See All",
+        "title": "Nhà cung cấp trò chơi",
+        "seeAll": "Xem tất cả",
         "providers": {
             "pg": {
                 "name": "PG",
                 "description": "Pocket Games Soft",
-                "play": "Play"
+                "play": "Chơi"
             },
             "joker": {
                 "name": "Joker",
                 "description": "Joker",
-                "play": "Play"
+                "play": "Chơi"
             },
             "jili": {
                 "name": "JILI",
                 "description": "JILI",
-                "play": "Play"
+                "play": "Chơi"
             },
             "pragmaticPlay": {
                 "name": "Pragmatic Play",
                 "description": "Pragmatic Play",
-                "play": "Play"
+                "play": "Chơi"
             }
         }
     },
     "allGames": {
-        "title": "All Games",
-        "seeAll": "See All",
+        "title": "Tất cả trò chơi",
+        "seeAll": "Xem tất cả",
         "games": {
             "ninjaRaccoonFrenzy": {
                 "name": "Ninja Raccoon Frenzy",
@@ -157,35 +157,35 @@
         }
     },
     "footer": {
-        "gameCategory": "Game Category",
+        "gameCategory": "Danh mục trò chơi",
         "categories": {
-            "demo": "Demo",
-            "newGames": "New Games",
-            "popular": "Popular",
-            "cashDrops": "Cash Drops",
-            "jackpots": "Jackpots",
+            "demo": "Bản thử nghiệm",
+            "newGames": "Trò chơi mới",
+            "popular": "Phổ biến",
+            "cashDrops": "Tiền thưởng",
+            "jackpots": "Giải đặc biệt",
             "megaways": "Megaways",
-            "tableGames": "Table Games",
-            "allGames": "All Games"
+            "tableGames": "Trò chơi trên bàn",
+            "allGames": "Tất cả trò chơi"
         },
-        "liveCasino": "Live Casino",
-        "allLiveCasino": "All Live Casino",
+        "liveCasino": "Sòng bạc trực tiếp",
+        "allLiveCasino": "Tất cả sòng bạc trực tiếp",
         "specials": {
-            "quests": "Quests",
-            "reward": "Reward",
-            "referral": "Referral",
-            "level": "Level"
+            "quests": "Nhiệm vụ",
+            "reward": "Phần thưởng",
+            "referral": "Giới thiệu",
+            "level": "Cấp độ"
         },
         "information": {
-            "termsAndConditions": "Terms and Conditions",
-            "privacyPolicy": "Privacy Policy",
-            "cookiesPolicy": "Cookies Policy"
+            "termsAndConditions": "Điều khoản và Điều kiện",
+            "privacyPolicy": "Chính sách quyền riêng tư",
+            "cookiesPolicy": "Chính sách Cookies"
         },
-        "followUs": "Follow us",
-        "poweredBy": "Powered By Rith CT"
+        "followUs": "Theo dõi chúng tôi",
+        "poweredBy": "Được cung cấp bởi Rith CT"
     },
     "header": {
-        "signUp": "Sign Up",
-        "signIn": "Sign In"
+        "signUp": "Đăng ký",
+        "signIn": "Đăng nhập"
     }
 }

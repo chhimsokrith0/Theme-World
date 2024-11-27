@@ -1,27 +1,34 @@
 "use client";
 
 import React from "react";
-
-const popularGames = [
-    { title: "Jewel Mania", provider: "Mancala", image: "/img-popular/1.png" },
-    { title: "Hot Fruits on Fire", provider: "Mancala", image: "/img-popular/2.png" },
-    { title: "#BarsAndBells", provider: "Mancala", image: "/img-popular/3.png" },
-    { title: "Reel Reel Hot", provider: "Mancala", image: "/img-popular/4.png" },
-    { title: "Spirit of the Lake", provider: "Mancala", image: "/img-popular/5.png" },
-    { title: "The Twin Wins Mystery", provider: "Mancala", image: "/img-popular/6.png" },
-];
+import { useTranslation } from "react-i18next";
 
 const PopularGames: React.FC = () => {
+
+    const { t } = useTranslation();
+
+
+    const popularGames = [
+        { title: t("popularGames.games.jewelMania"), provider: t("popularGames.provider"), image: "/img-popular/1.png" },
+        { title: t("popularGames.games.hotFruitsOnFire"), provider: t("popularGames.provider"), image: "/img-popular/2.png" },
+        { title: t("popularGames.games.barsAndBells"), provider: t("popularGames.provider"), image: "/img-popular/3.png" },
+        { title: t("popularGames.games.reelReelHot"), provider: t("popularGames.provider"), image: "/img-popular/4.png" },
+        { title: t("popularGames.games.spiritOfTheLake"), provider: t("popularGames.provider"), image: "/img-popular/5.png" },
+        { title: t("popularGames.games.twinWinsMystery"), provider: t("popularGames.provider"), image: "/img-popular/6.png" },
+    ];
+
+
+
     return (
         <section className="pt-6">
             {/* Header */}
             <div className="flex justify-between items-center mb-6 px-4">
                 <div className="flex items-center space-x-2">
                     <span className="text-yellow-400 text-xl">🔥</span>
-                    <h2 className="text-white text-xl font-bold">Popular Games</h2>
+                    <h2 className="text-white text-xl font-bold"> {t("popularGames.title")} </h2>
                 </div>
                 <button className="flex items-center space-x-2 px-5 py-2 text-sm font-medium bg-transparent border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition">
-                    <span>See All</span>
+                    <span> {t("popularGames.seeAll")} </span>
                     <span>➔</span>
                 </button>
             </div>

@@ -1,38 +1,38 @@
 {
-    "welcome": "Welcome to our website",
-    "languageSwitch": "Change Language",
+    "welcome": "Selamat datang di situs kami",
+    "languageSwitch": "Ubah Bahasa",
     "slidebar": {
-        "home": "Home",
-        "slots": "Slots",
-        "liveCasino": "Live Casino",
-        "privileges": "Privileges",
-        "quests": "Quests",
-        "reward": "Reward",
+        "home": "Beranda",
+        "slots": "Mesin Slot",
+        "liveCasino": "Kasino Langsung",
+        "privileges": "Hak Istimewa",
+        "quests": "Misi",
+        "reward": "Hadiah",
         "promo": "Promo",
-        "levels": "Levels",
-        "referral": "Referral",
-        "providers": "Providers",
-        "rtpSlots": "RTP Slots",
-        "sports": "Sports",
-        "fishing": "Fishing",
+        "levels": "Tingkat",
+        "referral": "Referensi",
+        "providers": "Penyedia",
+        "rtpSlots": "Mesin Slot RTP",
+        "sports": "Olahraga",
+        "fishing": "Memancing",
         "virtual": "Virtual",
-        "languageOption": "Language Option",
-        "contactSocialMedia": "Contact & Social Media"
+        "languageOption": "Pilihan Bahasa",
+        "contactSocialMedia": "Hubungi & Media Sosial"
     },
     "navbar": {
         "demo": "Demo",
-        "allGames": "All Games",
-        "popularGames": "Popular Games",
-        "newGames": "New Games",
+        "allGames": "Semua Permainan",
+        "popularGames": "Permainan Populer",
+        "newGames": "Permainan Baru",
         "cashDrop": "Cash Drop",
-        "jackpots": "Jackpots",
+        "jackpots": "Jackpot",
         "megaways": "Megaways",
-        "tableGames": "Table Games",
-        "providers": "Providers"
+        "tableGames": "Permainan Meja",
+        "providers": "Penyedia"
     },
     "popularGames": {
-        "title": "Popular Games",
-        "seeAll": "See All",
+        "title": "Permainan Populer",
+        "seeAll": "Lihat Semua",
         "games": {
             "jewelMania": "Jewel Mania",
             "hotFruitsOnFire": "Hot Fruits on Fire",
@@ -44,8 +44,8 @@
         "provider": "Mancala"
     },
     "newGames": {
-        "title": "New Games",
-        "seeAll": "See All",
+        "title": "Permainan Baru",
+        "seeAll": "Lihat Semua",
         "games": {
             "spiritOfTheLake": "Spirit of the Lake",
             "twinWinsMystery": "The Twin Wins Mystery"
@@ -53,22 +53,22 @@
         "provider": "Mancala"
     },
     "promotions": {
-        "title": "Promotions",
-        "seeAll": "See All"
+        "title": "Promosi",
+        "seeAll": "Lihat Semua"
     },
     "liveCasino": {
-        "title": "Live Casino",
-        "seeAll": "See All",
+        "title": "Kasino Langsung",
+        "seeAll": "Lihat Semua",
         "games": {
             "pragmaticLive": "Pragmatic Live",
             "baccaratC08": "Baccarat C08",
             "baccarat": "Baccarat",
             "dreamGaming": "DreamGaming",
-            "topGamesLobby": "Top Games Lobby",
-            "liveCasino": "Live Casino"
+            "topGamesLobby": "Lobi Permainan Teratas",
+            "liveCasino": "Kasino Langsung"
         },
         "providers": {
-            "pragmaticPlay": "PragmaticPlay",
+            "pragmaticPlay": "Pragmatic Play",
             "sa": "SA",
             "aeSexy": "Ae Sexy",
             "dreamGaming": "DreamGaming",
@@ -77,115 +77,115 @@
         }
     },
     "gameProviders": {
-        "title": "Game Providers",
-        "seeAll": "See All",
+        "title": "Penyedia Permainan",
+        "seeAll": "Lihat Semua",
         "providers": {
             "pg": {
                 "name": "PG",
                 "description": "Pocket Games Soft",
-                "play": "Play"
+                "play": "Main"
             },
             "joker": {
                 "name": "Joker",
                 "description": "Joker",
-                "play": "Play"
+                "play": "Main"
             },
             "jili": {
                 "name": "JILI",
                 "description": "JILI",
-                "play": "Play"
+                "play": "Main"
             },
             "pragmaticPlay": {
                 "name": "Pragmatic Play",
                 "description": "Pragmatic Play",
-                "play": "Play"
+                "play": "Main"
             }
         }
     },
     "allGames": {
-        "title": "All Games",
-        "seeAll": "See All",
+        "title": "Semua Permainan",
+        "seeAll": "Lihat Semua",
         "games": {
             "ninjaRaccoonFrenzy": {
-                "name": "Ninja Raccoon Frenzy",
+                "name": "Kegilaan Rakun Ninja",
                 "provider": "PGSoft"
             },
             "treasuresOfAztec": {
-                "name": "Treasures of Aztec",
+                "name": "Harta Karun Aztec",
                 "provider": "PGSoft"
             },
             "mahjongWays2": {
-                "name": "Mahjong Ways 2",
+                "name": "Cara Mahjong 2",
                 "provider": "PGSoft"
             },
             "luckyNeko": {
-                "name": "Lucky Neko",
+                "name": "Neko Keberuntungan",
                 "provider": "PGSoft"
             },
             "mahjongWays": {
-                "name": "Mahjong Ways",
+                "name": "Cara Mahjong",
                 "provider": "PGSoft"
             },
             "wildBountyShowdown": {
-                "name": "Wild Bounty Showdown",
+                "name": "Pertarungan Hadiah Liar",
                 "provider": "PGSoft"
             },
             "waysOfTheQilin": {
-                "name": "Ways of the Qilin",
+                "name": "Cara Qilin",
                 "provider": "PGSoft"
             },
             "wildBandito": {
-                "name": "Wild Bandito",
+                "name": "Bandit Liar",
                 "provider": "PGSoft"
             },
             "fortuneRabbit": {
-                "name": "Fortune Rabbit",
+                "name": "Kelinci Keberuntungan",
                 "provider": "PGSoft"
             },
             "caishenWins": {
-                "name": "Caishen Wins",
+                "name": "Kemenangan Caishen",
                 "provider": "PGSoft"
             },
             "fortuneOx": {
-                "name": "Fortune Ox",
+                "name": "Kerbau Keberuntungan",
                 "provider": "PGSoft"
             },
             "ganeshaFortune": {
-                "name": "Ganesha Fortune",
+                "name": "Keberuntungan Ganesha",
                 "provider": "PGSoft"
             }
         }
     },
     "footer": {
-        "gameCategory": "Game Category",
+        "gameCategory": "Kategori Permainan",
         "categories": {
             "demo": "Demo",
-            "newGames": "New Games",
-            "popular": "Popular",
+            "newGames": "Permainan Baru",
+            "popular": "Populer",
             "cashDrops": "Cash Drops",
-            "jackpots": "Jackpots",
+            "jackpots": "Jackpot",
             "megaways": "Megaways",
-            "tableGames": "Table Games",
-            "allGames": "All Games"
+            "tableGames": "Permainan Meja",
+            "allGames": "Semua Permainan"
         },
-        "liveCasino": "Live Casino",
-        "allLiveCasino": "All Live Casino",
+        "liveCasino": "Kasino Langsung",
+        "allLiveCasino": "Semua Kasino Langsung",
         "specials": {
-            "quests": "Quests",
-            "reward": "Reward",
-            "referral": "Referral",
-            "level": "Level"
+            "quests": "Misi",
+            "reward": "Hadiah",
+            "referral": "Referensi",
+            "level": "Tingkat"
         },
         "information": {
-            "termsAndConditions": "Terms and Conditions",
-            "privacyPolicy": "Privacy Policy",
-            "cookiesPolicy": "Cookies Policy"
+            "termsAndConditions": "Syarat dan Ketentuan",
+            "privacyPolicy": "Kebijakan Privasi",
+            "cookiesPolicy": "Kebijakan Cookies"
         },
-        "followUs": "Follow us",
-        "poweredBy": "Powered By Rith CT"
+        "followUs": "Ikuti Kami",
+        "poweredBy": "Didukung oleh Rith CT"
     },
     "header": {
-        "signUp": "Sign Up",
-        "signIn": "Sign In"
+        "signUp": "Daftar",
+        "signIn": "Masuk"
     }
 }

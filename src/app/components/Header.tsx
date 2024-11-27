@@ -8,11 +8,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FaFlagUsa } from "react-icons/fa";
 import LanguageSwitch from "./LanguageSwitch";
+import { useTranslation } from "react-i18next";
 // import Sidebar from "./Sidebar";
 
 const Header: React.FC = () => {
 
-  
+  const {t} = useTranslation();
 
   const [modalType, setModalType] = useState<"signUp" | "signIn" | null>(null);
 
@@ -48,7 +49,7 @@ const Header: React.FC = () => {
           onClick={() => toggleModal("signUp")}
           className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-semibold py-2 px-6 rounded-full hover:opacity-90"
         >
-          Sign Up
+          {t("header.signUp")}
         </button>
 
         {/* Sign In Button */}
@@ -56,11 +57,13 @@ const Header: React.FC = () => {
           onClick={() => toggleModal("signIn")}
           className="border border-yellow-500 text-yellow-500 font-semibold py-2 px-6 rounded-full hover:bg-yellow-500 hover:text-black transition"
         >
-          Sign In
+          {t("header.signIn")}
         </button>
 
         {/* Language Selector */}
-        <LanguageSwitch />
+        <div className="ml-10">
+          <LanguageSwitch />
+        </div>
       </div>
 
       {/* Mobile View */}
@@ -79,13 +82,13 @@ const Header: React.FC = () => {
             onClick={() => toggleModal("signUp")}
             className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-semibold py-1 px-4 rounded-full hover:opacity-90 text-sm"
           >
-            Sign Up
+            {t("header.signUp")}
           </button>
           <button
             onClick={() => toggleModal("signIn")}
             className="border border-yellow-500 text-yellow-500 font-semibold py-1 px-4 rounded-full hover:bg-yellow-500 hover:text-black transition text-sm"
           >
-            Sign In
+            {t("header.signIn")}
           </button>
           <FaFlagUsa className="text-white h-5 w-5" />
         </div>

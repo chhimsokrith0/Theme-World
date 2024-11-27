@@ -1,0 +1,191 @@
+{
+    "welcome": "저희 웹사이트에 오신 것을 환영합니다",
+    "languageSwitch": "언어 변경",
+    "slidebar": {
+        "home": "홈",
+        "slots": "슬롯",
+        "liveCasino": "라이브 카지노",
+        "privileges": "특권",
+        "quests": "퀘스트",
+        "reward": "보상",
+        "promo": "프로모션",
+        "levels": "레벨",
+        "referral": "추천",
+        "providers": "공급자",
+        "rtpSlots": "RTP 슬롯",
+        "sports": "스포츠",
+        "fishing": "낚시",
+        "virtual": "가상",
+        "languageOption": "언어 옵션",
+        "contactSocialMedia": "연락처 및 소셜 미디어"
+    },
+    "navbar": {
+        "demo": "데모",
+        "allGames": "모든 게임",
+        "popularGames": "인기 게임",
+        "newGames": "새로운 게임",
+        "cashDrop": "현금 드롭",
+        "jackpots": "잭팟",
+        "megaways": "메가웨이",
+        "tableGames": "테이블 게임",
+        "providers": "공급자"
+    },
+    "popularGames": {
+        "title": "인기 게임",
+        "seeAll": "전체 보기",
+        "games": {
+            "jewelMania": "보석 매니아",
+            "hotFruitsOnFire": "뜨거운 과일 불길 속으로",
+            "barsAndBells": "#바와 종",
+            "reelReelHot": "릴 릴 핫",
+            "spiritOfTheLake": "호수의 정령",
+            "twinWinsMystery": "트윈 윈즈 미스터리"
+        },
+        "provider": "Mancala"
+    },
+    "newGames": {
+        "title": "새로운 게임",
+        "seeAll": "전체 보기",
+        "games": {
+            "spiritOfTheLake": "호수의 정령",
+            "twinWinsMystery": "트윈 윈즈 미스터리"
+        },
+        "provider": "Mancala"
+    },
+    "promotions": {
+        "title": "프로모션",
+        "seeAll": "전체 보기"
+    },
+    "liveCasino": {
+        "title": "라이브 카지노",
+        "seeAll": "전체 보기",
+        "games": {
+            "pragmaticLive": "프래그매틱 라이브",
+            "baccaratC08": "바카라 C08",
+            "baccarat": "바카라",
+            "dreamGaming": "드림 게이밍",
+            "topGamesLobby": "톱 게임 로비",
+            "liveCasino": "라이브 카지노"
+        },
+        "providers": {
+            "pragmaticPlay": "프래그매틱 플레이",
+            "sa": "SA",
+            "aeSexy": "AE 섹시",
+            "dreamGaming": "드림 게이밍",
+            "evolutionGaming": "이볼루션 게이밍",
+            "weGaming": "위 게이밍"
+        }
+    },
+    "gameProviders": {
+        "title": "게임 공급자",
+        "seeAll": "전체 보기",
+        "providers": {
+            "pg": {
+                "name": "PG",
+                "description": "포켓 게임 소프트",
+                "play": "플레이"
+            },
+            "joker": {
+                "name": "조커",
+                "description": "조커",
+                "play": "플레이"
+            },
+            "jili": {
+                "name": "JILI",
+                "description": "JILI",
+                "play": "플레이"
+            },
+            "pragmaticPlay": {
+                "name": "프래그매틱 플레이",
+                "description": "프래그매틱 플레이",
+                "play": "플레이"
+            }
+        }
+    },
+    "allGames": {
+        "title": "모든 게임",
+        "seeAll": "전체 보기",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "닌자 너구리 열풍",
+                "provider": "PGSoft"
+            },
+            "treasuresOfAztec": {
+                "name": "아즈텍의 보물",
+                "provider": "PGSoft"
+            },
+            "mahjongWays2": {
+                "name": "마작 웨이즈 2",
+                "provider": "PGSoft"
+            },
+            "luckyNeko": {
+                "name": "럭키 네코",
+                "provider": "PGSoft"
+            },
+            "mahjongWays": {
+                "name": "마작 웨이즈",
+                "provider": "PGSoft"
+            },
+            "wildBountyShowdown": {
+                "name": "와일드 바운티 쇼다운",
+                "provider": "PGSoft"
+            },
+            "waysOfTheQilin": {
+                "name": "기린의 길",
+                "provider": "PGSoft"
+            },
+            "wildBandito": {
+                "name": "와일드 반디토",
+                "provider": "PGSoft"
+            },
+            "fortuneRabbit": {
+                "name": "행운의 토끼",
+                "provider": "PGSoft"
+            },
+            "caishenWins": {
+                "name": "카이센 윈즈",
+                "provider": "PGSoft"
+            },
+            "fortuneOx": {
+                "name": "행운의 소",
+                "provider": "PGSoft"
+            },
+            "ganeshaFortune": {
+                "name": "가네샤 행운",
+                "provider": "PGSoft"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "게임 카테고리",
+        "categories": {
+            "demo": "데모",
+            "newGames": "새로운 게임",
+            "popular": "인기",
+            "cashDrops": "현금 드롭",
+            "jackpots": "잭팟",
+            "megaways": "메가웨이",
+            "tableGames": "테이블 게임",
+            "allGames": "모든 게임"
+        },
+        "liveCasino": "라이브 카지노",
+        "allLiveCasino": "모든 라이브 카지노",
+        "specials": {
+            "quests": "퀘스트",
+            "reward": "보상",
+            "referral": "추천",
+            "level": "레벨"
+        },
+        "information": {
+            "termsAndConditions": "이용 약관",
+            "privacyPolicy": "개인정보 보호정책",
+            "cookiesPolicy": "쿠키 정책"
+        },
+        "followUs": "팔로우",
+        "poweredBy": "제공: Rith CT"
+    },
+    "header": {
+        "signUp": "회원가입",
+        "signIn": "로그인"
+    }
+}

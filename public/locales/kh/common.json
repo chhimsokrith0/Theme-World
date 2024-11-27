@@ -1,0 +1,191 @@
+{
+    "welcome": "សូមស្វាគមន៍មកកាន់គេហទំព័ររបស់យើង",
+    "languageSwitch": "ផ្លាស់ប្តូរភាសា",
+    "slidebar": {
+        "home": "ទំព័រដើម",
+        "slots": "ស្លុត",
+        "liveCasino": "កាស៊ីណូផ្សាយផ្ទាល់",
+        "privileges": "សិទ្ធិពិសេស",
+        "quests": "ភារកិច្ច",
+        "reward": "រង្វាន់",
+        "promo": "ប្រូម៉ូ",
+        "levels": "កំរិត",
+        "referral": "បញ្ចូន",
+        "providers": "អ្នកផ្គត់ផ្គង់",
+        "rtpSlots": "RTP ស្លុត",
+        "sports": "កីឡា",
+        "fishing": "ត្រី",
+        "virtual": "វីរុជួ",
+        "languageOption": "ជ្រើសរើសភាសា",
+        "contactSocialMedia": "ទំនាក់ទំនង និងបណ្តាញសង្គម"
+    },
+    "navbar": {
+        "demo": "សាកល្បង",
+        "allGames": "គ្រប់ហ្គេម",
+        "popularGames": "ហ្គេមពេញនិយម",
+        "newGames": "ហ្គេមថ្មី",
+        "cashDrop": "ការចែកប្រាក់",
+        "jackpots": "ចាក់ផុត",
+        "megaways": "មេហ្គាវេ",
+        "tableGames": "ហ្គេមតារាង",
+        "providers": "អ្នកផ្គត់ផ្គង់"
+    },
+    "popularGames": {
+        "title": "ហ្គេមពេញនិយម",
+        "seeAll": "មើលទាំងអស់",
+        "games": {
+            "jewelMania": "គ្រឿងអលង្ការមេនៀ",
+            "hotFruitsOnFire": "ផ្លែឈើក្តៅនៅលើភ្លើង",
+            "barsAndBells": "#សន្លឹកនិងកណ្តឹង",
+            "reelReelHot": "សន្លឹកក្តៅ",
+            "spiritOfTheLake": "វិញ្ញាណស្រស់នៅបឹង",
+            "twinWinsMystery": "សម្ងាត់ជ័យជម្នះពីរគ្នា"
+        },
+        "provider": "Mancala"
+    },
+    "newGames": {
+        "title": "ហ្គេមថ្មី",
+        "seeAll": "មើលទាំងអស់",
+        "games": {
+            "spiritOfTheLake": "វិញ្ញាណស្រស់នៅបឹង",
+            "twinWinsMystery": "សម្ងាត់ជ័យជម្នះពីរគ្នា"
+        },
+        "provider": "Mancala"
+    },
+    "promotions": {
+        "title": "ប្រូម៉ូសិន",
+        "seeAll": "មើលទាំងអស់"
+    },
+    "liveCasino": {
+        "title": "កាស៊ីណូផ្សាយផ្ទាល់",
+        "seeAll": "មើលទាំងអស់",
+        "games": {
+            "pragmaticLive": "ប្រព័ន្ធផ្សាយផ្ទាល់",
+            "baccaratC08": "បាការ៉ាត់ C08",
+            "baccarat": "បាការ៉ាត់",
+            "dreamGaming": "ដ្រីមហ្គេម",
+            "topGamesLobby": "ទីតាំងហ្គេមកំពូល",
+            "liveCasino": "កាស៊ីណូផ្សាយផ្ទាល់"
+        },
+        "providers": {
+            "pragmaticPlay": "ប្រព័ន្ធហ្គេម",
+            "sa": "SA",
+            "aeSexy": "AE Sexy",
+            "dreamGaming": "ដ្រីមហ្គេម",
+            "evolutionGaming": "អ៊ីវ៉ូលូស្យុនហ្គេម",
+            "weGaming": "We Gaming"
+        }
+    },
+    "gameProviders": {
+        "title": "អ្នកផ្គត់ផ្គង់ហ្គេម",
+        "seeAll": "មើលទាំងអស់",
+        "providers": {
+            "pg": {
+                "name": "PG",
+                "description": "Pocket Games Soft",
+                "play": "លេង"
+            },
+            "joker": {
+                "name": "Joker",
+                "description": "Joker",
+                "play": "លេង"
+            },
+            "jili": {
+                "name": "JILI",
+                "description": "JILI",
+                "play": "លេង"
+            },
+            "pragmaticPlay": {
+                "name": "Pragmatic Play",
+                "description": "Pragmatic Play",
+                "play": "លេង"
+            }
+        }
+    },
+    "allGames": {
+        "title": "គ្រប់ហ្គេម",
+        "seeAll": "មើលទាំងអស់",
+        "games": {
+            "ninjaRaccoonFrenzy": {
+                "name": "គំនរចចកនិនចា",
+                "provider": "PGSoft"
+            },
+            "treasuresOfAztec": {
+                "name": "ទ្រព្យសម្បត្តិអាស្ដេក",
+                "provider": "PGSoft"
+            },
+            "mahjongWays2": {
+                "name": "មាសុងវិធី 2",
+                "provider": "PGSoft"
+            },
+            "luckyNeko": {
+                "name": "អ្នកមានសំណាង Neko",
+                "provider": "PGSoft"
+            },
+            "mahjongWays": {
+                "name": "មាសុងវិធី",
+                "provider": "PGSoft"
+            },
+            "wildBountyShowdown": {
+                "name": "ចោរកម្មសហព្យាបាល",
+                "provider": "PGSoft"
+            },
+            "waysOfTheQilin": {
+                "name": "វិធីកីឡារបស់ Qilin",
+                "provider": "PGSoft"
+            },
+            "wildBandito": {
+                "name": "ក្រុមចោរត្រង់",
+                "provider": "PGSoft"
+            },
+            "fortuneRabbit": {
+                "name": "កន្សោមសំណាង",
+                "provider": "PGSoft"
+            },
+            "caishenWins": {
+                "name": "Cai Shen សំបូរបែប",
+                "provider": "PGSoft"
+            },
+            "fortuneOx": {
+                "name": "សំណាងគោ",
+                "provider": "PGSoft"
+            },
+            "ganeshaFortune": {
+                "name": "សំណាង Ganesha",
+                "provider": "PGSoft"
+            }
+        }
+    },
+    "footer": {
+        "gameCategory": "ប្រភេទហ្គេម",
+        "categories": {
+            "demo": "សាកល្បង",
+            "newGames": "ហ្គេមថ្មី",
+            "popular": "ពេញនិយម",
+            "cashDrops": "ការចែកប្រាក់",
+            "jackpots": "ចាក់ផុត",
+            "megaways": "មេហ្គាវេ",
+            "tableGames": "ហ្គេមតារាង",
+            "allGames": "គ្រប់ហ្គេម"
+        },
+        "liveCasino": "កាស៊ីណូផ្សាយផ្ទាល់",
+        "allLiveCasino": "កាស៊ីណូផ្សាយផ្ទាល់ទាំងអស់",
+        "specials": {
+            "quests": "ភារកិច្ច",
+            "reward": "រង្វាន់",
+            "referral": "បញ្ចូន",
+            "level": "កំរិត"
+        },
+        "information": {
+            "termsAndConditions": "លក្ខខណ្ឌ និងលក្ខខណ្ឌ",
+            "privacyPolicy": "គោលការណ៍ភាពឯកជន",
+            "cookiesPolicy": "គោលការណ៍ខូឃី"
+        },
+        "followUs": "តាមដានយើង",
+        "poweredBy": "ផលិតដោយ Rith CT"
+    },
+    "header": {
+        "signUp": "ចុះឈ្មោះ",
+        "signIn": "ចូល"
+    }
+}
