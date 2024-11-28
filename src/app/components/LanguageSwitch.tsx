@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/navigation"; // Use the new `next/navigation` router
 
 const languageOptions = [
   { id: 1, name: "ENG", flag: "/icon-us.png", code: "en" },
@@ -30,10 +31,12 @@ const languageOptions = [
 const LanguageSwitch: React.FC = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const { i18n } = useTranslation(); // Access i18n instance
+  const router = useRouter(); // Use router navigation
 
   const changeLanguage = (langCode: string) => {
     setIsDropdownOpen(false); // Close dropdown
-    i18n.changeLanguage(langCode); // Update the language using i18next
+    i18n.changeLanguage(langCode); // Update i18next language
+    router.push(`/${langCode}`); // Navigate to the correct language route
   };
 
   return (

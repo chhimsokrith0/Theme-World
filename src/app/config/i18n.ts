@@ -11,10 +11,10 @@ i18n
     fallbackLng: "en",
     debug: true,
     interpolation: {
-      escapeValue: false, // React already handles escaping
+      escapeValue: false,
     },
     backend: {
-      loadPath: "/locales/{{lng}}/common.json", // Updated to match your structure
+      loadPath: '/locales/{{lng}}/common.json',
     },
     detection: {
       order: ["path", "cookie", "localStorage", "navigator", "htmlTag"],

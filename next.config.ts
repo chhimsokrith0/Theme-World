@@ -1,7 +1,5 @@
-import type { NextConfig } from "next";
-import i18nConfig from "./next-i18next.config";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
     remotePatterns: [
       {
@@ -12,7 +10,33 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  i18n: i18nConfig.i18n,
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'bn', 'ca', 'hi', 'hk', 'id', 'kh', 'ko', 'lo', 'mm', 'ms', 'ph', 'pt', 'sg', 'th', 'tw', 'ur', 'vi', 'zh'],
+  },
+  // Configure static file serving
+  async headers() {
+    return [
+      {
+        source: '/locales/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: '*' },
+          { key: 'Cache-Control', value: 'public, max-age=0, must-revalidate' },
+        ],
+      },
+    ];
+  },
+  
+  // This is important for serving static files from the public directory
+  async rewrites() {
+    return [
+      {
+        source: '/locales/:path*',
+        destination: '/public/locales/:path*',
+      },
+    ];
+  },
+
 };
 
 export default nextConfig;

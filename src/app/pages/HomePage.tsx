@@ -2,6 +2,7 @@
 
 import React from "react";
 
+
 import Carousel from "@/app/components/Carousel";
 import Navbar from "@/app/components/Navbar";
 import PopularGames from "@/app/components/features/games/PopularGames";
@@ -12,7 +13,11 @@ import GameProviders from "@/app/components/features/games/GameProviders";
 import JackpotBanner from "@/app/components/features/jackpots/JackpotBanner";
 import AllGames from "@/app/components/features/games/AllGames";
 
+
+
 const HomePage: React.FC = () => {
+
+
   return (
     <>
       <div className="px-4 sm:px-6 lg:px-8">
@@ -68,3 +73,6 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
+
+
+
