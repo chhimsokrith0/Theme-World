@@ -47,7 +47,7 @@ const Sidebar: React.FC = () => {
     { id: 1, title: t("slidebar.quests"), icon: questIcon.src, bgColor: "rgb(60, 33, 108)", link: "/quests" },
     { id: 2, title: t("slidebar.reward"), icon: rewardIcon.src, bgColor: "rgb(36, 68, 38)", link: "/reward" },
     { id: 3, title: t("slidebar.promo"), icon: promoIcon.src, bgColor: "rgb(108, 33, 88)", link: "/promo" },
-    { id: 4, title: t("slidebar.levels"), icon: levelsIcon.src, bgColor: "rgb(108, 33, 33)", link: "/levels" },
+    { id: 4, title: t("slidebar.levels"), icon: levelsIcon.src, bgColor: "rgb(108, 33, 33)", link: "/member-level" },
     { id: 5, title: t("slidebar.referral"), icon: referralIcon.src, bgColor: "rgb(108, 88, 33)", isFullWidth: true, link: "/referral" },
   ];
 
@@ -96,13 +96,15 @@ const Sidebar: React.FC = () => {
                   backgroundPosition: "center",
                 }}
               >
-                <img src={item.icon} alt={item.title} className="h-8 w-8 mx-auto mb-2" />
+                <img src={item.icon} alt={item.title} className="h-10 w-10 mx-auto mb-2" />
                 <span className="font-medium text-sm text-white">{item.title}</span>
               </div>
             </Link>
           ))}
         </div>
       </div>
+
+      
 
       {/* Additional Menu */}
       <div className="mt-6">

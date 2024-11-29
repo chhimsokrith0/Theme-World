@@ -11,7 +11,7 @@ const FilterModal: React.FC<FilterModalProps> = ({ isOpen, onClose }) => {
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-end z-50">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-end z-[9999]">
             {/* Modal Container with Animation */}
             <div className="w-80 bg-gray-900 h-full shadow-lg p-6 relative animate-slide-down">
                 {/* Close Button */}

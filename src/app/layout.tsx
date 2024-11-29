@@ -2,11 +2,11 @@
 
 import "./globals.css";
 import "../../styles/globals.css";
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
-import ClientLoaderWrapper from "./components/ClientLoaderWrapper";
-import MobileNavBar from "./components/MobileNavBar";
+import Header from "@/app/components/Header";
+import Sidebar from "@/app/components/Sidebar";
+import Footer from "@/app/components/Footer";
+import ClientLoaderWrapper from "@/app/components/ClientLoaderWrapper";
+import MobileNavBar from "@/app/components/MobileNavBar";
 import { I18nextProvider } from "react-i18next";
 import i18n from "@/app/config/i18n";
 import localFont from "next/font/local";
@@ -67,3 +67,5 @@ export default function RootLayout({
     </I18nextProvider>
   );
 }
+
+

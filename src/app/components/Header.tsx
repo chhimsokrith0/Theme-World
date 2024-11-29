@@ -6,14 +6,13 @@ import SignupModal from "@/app/components/SignUp_SingIn_Modal"; // Import the mo
 import logo from "@/app/assets/logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FaFlagUsa } from "react-icons/fa";
 import LanguageSwitch from "./LanguageSwitch";
 import { useTranslation } from "react-i18next";
 // import Sidebar from "./Sidebar";
 
 const Header: React.FC = () => {
 
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   const [modalType, setModalType] = useState<"signUp" | "signIn" | null>(null);
 
@@ -90,7 +89,10 @@ const Header: React.FC = () => {
           >
             {t("header.signIn")}
           </button>
-          <FaFlagUsa className="text-white h-5 w-5" />
+          {/* Language Selector */}
+          <div className="ml-10">
+            <LanguageSwitch />
+          </div>
         </div>
       </div>
 

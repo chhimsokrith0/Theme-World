@@ -33,17 +33,17 @@ const LanguageSwitch: React.FC = () => {
   const { i18n } = useTranslation(); // Access i18n instance
   const router = useRouter(); // Use router navigation
 
-  const changeLanguage = (langCode: string) => {
+  const changeLanguage = (lng: string) => {
     setIsDropdownOpen(false); // Close dropdown
-    i18n.changeLanguage(langCode); // Update i18next language
-    router.push(`/${langCode}`); // Navigate to the correct language route
+    i18n.changeLanguage(lng); // Update i18next language
+    router.push(`/${lng}`); // Navigate to the correct language route
   };
 
   return (
     <div className="relative">
       {/* Toggle Button */}
       <div
-        className="flex items-center space-x-2 bg-gray-800 px-4 py-2 rounded-full cursor-pointer hover:bg-gray-700 transition"
+        className="flex items-center space-x-3 bg-gray-800 px-5 py-3 rounded-lg shadow cursor-pointer hover:bg-gray-700 transition duration-200"
         onClick={() => setIsDropdownOpen((prev) => !prev)}
       >
         <Image
@@ -52,10 +52,16 @@ const LanguageSwitch: React.FC = () => {
             languageOptions[0].flag
           }
           alt="Current language flag"
-          width={20}
-          height={20}
+          width={24}
+          height={24}
           className="rounded-full"
         />
+        <span className="text-white text-sm font-medium">
+          {
+            languageOptions.find((lang) => lang.code === i18n.language)?.name ||
+            "ENG"
+          }
+        </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={`w-4 h-4 text-white transform transition-transform ${
@@ -74,11 +80,11 @@ const LanguageSwitch: React.FC = () => {
 
       {/* Dropdown Menu */}
       {isDropdownOpen && (
-        <div className="absolute bg-gray-900 text-white mt-2 rounded-lg shadow-lg w-56 py-2 z-50 overflow-auto max-h-96">
+        <div className="absolute right-0 mt-2 bg-gray-900 text-white rounded-lg shadow-lg w-64 py-2 z-50 overflow-auto max-h-72 scrollbar-hide">
           {languageOptions.map((lang) => (
             <div
               key={lang.id}
-              className="flex items-center px-4 py-2 hover:bg-gray-700 cursor-pointer rounded-md transition"
+              className="flex items-center px-4 py-2 hover:bg-gray-700 cursor-pointer rounded-md transition duration-150"
               onClick={() => changeLanguage(lang.code)}
             >
               <Image
@@ -88,7 +94,7 @@ const LanguageSwitch: React.FC = () => {
                 height={24}
                 className="rounded-full"
               />
-              <span className="ml-2 text-sm">{lang.name}</span>
+              <span className="ml-3 text-sm font-medium">{lang.name}</span>
             </div>
           ))}
         </div>
